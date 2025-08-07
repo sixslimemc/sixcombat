@@ -4,18 +4,18 @@
     = [
         {
             item: "minecraft:iron_sword"
-            damage: 4.0
-            attack_speed: 1.4 (+-0.06)
-            knockback: 0
-            range_modifier: 0
-            disable_block_seconds: 0
+            damage: 4.0f
+            attack_speed: 1.4f (+-0.06)
+            knockback: 0f
+            range_modifier: 0f
+            disable_block_seconds: 0f
             blocks_attacks: {
-                delay: 0.15
-                disable_cooldown_scale: 0.6
-                max_angle: 60
+                delay: 0.15f
+                disable_cooldown_scale: 0.6f
+                max_angle: 60f
                 damage_reduction: {
-                    base: 1
-                    percent: 0.35
+                    base: 1f
+                    percent: 0.35f
                 }
                 sound: {
                     on_block: "minecraft:block.iron.hit"
@@ -25,43 +25,51 @@
         },
         {
             item: "minecraft:iron_axe"
-            damage: 6.0
-            attack_speed: 0.9 (+-0.04)
-            knockback: 0
-            range_modifier: 0
+            damage: 6.0f
+            attack_speed: 0.9f (+-0.04)
+            knockback: 0f
+            range_modifier: 0f
             disable_block_seconds: 5.0 (+-0.5)
             blocks_attacks: false
         },
         {
             item: "minecraft:iron_hoe"
-            damage: 4
-            attack_speed: 1.95 (+-0.04)
-            knockback: 0
-            range_modifier: 0
-            disable_block_seconds: 0
+            damage: 4f
+            attack_speed: 1.95f (+-0.04)
+            knockback: 0f
+            range_modifier: 0f
+            disable_block_seconds: 0f
             blocks_attacks: false
         },
         {
             item: "minecraft:iron_shovel"
-            damage: 4.0
-            attack_speed: 1.2 (+-0.06)
-            knockback: 0
-            range_modifier: 0.18
-            disable_block_seconds: 0
+            damage: 4.0f
+            attack_speed: 1.2f (+-0.06)
+            knockback: 0f
+            range_modifier: 0.18f
+            disable_block_seconds: 0f
             blocks_attacks: false
         },
         {
             item: "minecraft:iron_pickaxe"
-            damage: 8.0
-            attack_speed: 0.72 (+-0.04)
-            knockback: 0
-            range_modifier: -0.24
-            disable_block_seconds: 0
+            damage: 8.0f
+            attack_speed: 0.72f (+-0.04)
+            knockback: 0f
+            range_modifier: -0.24f
+            disable_block_seconds: 0f
             blocks_attacks: false
         },
     ]
 
     airborne_modifiers[]: AttributeModifier
+    #
+    = [
+        {
+            type: "minecraft:attack_speed"
+            amount: -0.45f
+            operation: "add_multiplied_total"
+        }
+    ]
 }
 
 AttributeModifier := {
