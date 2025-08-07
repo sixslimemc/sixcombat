@@ -1,0 +1,11 @@
+{
+    items: {
+        <$itemID...>: {
+            attributes[]: object
+            # meant to be directly appended to "attribute_modifiers" component.
+
+            components: object
+            # meant to be merged with item components
+        }
+    }
+}
