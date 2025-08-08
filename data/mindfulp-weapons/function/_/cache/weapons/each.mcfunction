@@ -34,7 +34,7 @@ data modify storage mindfulp-weapons:_ var.cache.entry.components."minecraft:wea
 
 # blocks attacks:
 data modify storage mindfulp-weapons:_ x.bdata set from storage mindfulp-weapons:_ var.cache.this_weapon.blocks_attacks
-data modify storage mindfulp-weapons:_ x.bcomp set value {damage_reductions:[{}], bypassed_by:"#mindfulp-weapons:bypasses_sword_block", item_damage:{threshold:1f, base:0f}}
+data modify storage mindfulp-weapons:_ x.bcomp set value {damage_reductions:[{}], bypassed_by:"#mindfulp-weapons:bypasses_sword_block", item_damage:{threshold:1f, base:0f}, block_sound:"minecraft:entity.player.hurt", disable_sound:"minecraft:entity.player.hurt"}
 data modify storage mindfulp-weapons:_ x.bcomp.block_delay_seconds set from storage mindfulp-weapons:_ x.bdata.delay
 data modify storage mindfulp-weapons:_ x.bcomp.disable_cooldown_scale set from storage mindfulp-weapons:_ x.bdata.disable_cooldown_scale
 data modify storage mindfulp-weapons:_ x.bcomp.damage_reductions[0].base set from storage mindfulp-weapons:_ x.bdata.damage_reduction.base

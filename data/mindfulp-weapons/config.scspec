@@ -10,16 +10,16 @@
             range_modifier: 0f
             disable_block_seconds: 0f
             blocks_attacks: {
-                delay: 0.1f
-                disable_cooldown_scale: 0.6f
+                delay: 0.05f (+-0.01)
+                disable_cooldown_scale: 0.8f
                 max_angle: 60f
                 damage_reduction: {
-                    base: 1f
-                    percent: 0.5f
+                    base: 0f
+                    percent: 0.48f (+- 0.08)
                 }
                 sound: {
-                    on_block: "minecraft:block.iron.hit"
-                    on_disable: "minecraft.entity.iron_golom.attack"
+                    on_block: "minecraft:item.shield.block"
+                    on_disable: "minecraft.entity.iron_golem.attack"
                 }
             }
         },
@@ -46,7 +46,7 @@
             damage: 4.0f
             attack_speed: 1.2f (+-0.06)
             knockback: 0f
-            range_modifier: 0.18f
+            range_modifier: 0.18f (+-0.015)
             disable_block_seconds: 0f
             blocks_attacks: false
         },
@@ -55,7 +55,7 @@
             damage: 8.0f
             attack_speed: 0.72f (+-0.04)
             knockback: 0f
-            range_modifier: -0.24f
+            range_modifier: -0.24f (+-0.02)
             disable_block_seconds: 0f
             blocks_attacks: false
         },
