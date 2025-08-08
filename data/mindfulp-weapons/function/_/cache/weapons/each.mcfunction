@@ -39,6 +39,7 @@ data modify storage mindfulp-weapons:_ x.bcomp.block_delay_seconds set from stor
 data modify storage mindfulp-weapons:_ x.bcomp.disable_cooldown_scale set from storage mindfulp-weapons:_ x.bdata.disable_cooldown_scale
 data modify storage mindfulp-weapons:_ x.bcomp.damage_reductions[0].base set from storage mindfulp-weapons:_ x.bdata.damage_reduction.base
 data modify storage mindfulp-weapons:_ x.bcomp.damage_reductions[0].factor set from storage mindfulp-weapons:_ x.bdata.damage_reduction.percent
+data modify storage mindfulp-weapons:_ x.bcomp.damage_reductions[0].horizontal_blocking_angle set from storage mindfulp-weapons:_ x.bdata.max_angle
 data modify storage mindfulp-weapons:_ x.bcomp.item_damage.factor set from storage mindfulp-weapons:_ x.bdata.damage_reduction.percent
 execute if data storage mindfulp-weapons:_ x.bdata.sound.on_block unless data storage mindfulp-weapons:_ x.bdata.sound{on_block:false} run data modify storage mindfulp-weapons:_ x.bcomp.block_sound set from storage mindfulp-weapons:_ x.bdata.sound.on_block
 execute if data storage mindfulp-weapons:_ x.bdata.sound.on_disable unless data storage mindfulp-weapons:_ x.bdata.sound{on_disable:false} run data modify storage mindfulp-weapons:_ x.bcomp.disable_sound set from storage mindfulp-weapons:_ x.bdata.sound.on_disable

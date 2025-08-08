@@ -18,8 +18,9 @@ data modify storage mindfulp-weapons:config weapons set value []
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_sword
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:iron_sword"
-data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4f, attack_speed:1.4f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {blocks_attacks:{damage_reduction:{base:1f, percent:0.35f}, sound:{on_block:"minecraft:block.iron.hit", on_disable:"minecraft.entity.iron_golom.attack"}}}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4f, attack_speed:1.3f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {delay:0f, blocks_attacks:{damage_reduction:{base:0f, percent:0.48f}}}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {blocks_attacks:{sound:{on_block:"minecraft:item.shield.block", on_disable:"minecraft.entity.iron_golom.attack"}}}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:iron_axe"

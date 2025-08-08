@@ -10,12 +10,12 @@
             range_modifier: 0f
             disable_block_seconds: 0f
             blocks_attacks: {
-                delay: 0.15f
+                delay: 0.1f
                 disable_cooldown_scale: 0.6f
                 max_angle: 60f
                 damage_reduction: {
                     base: 1f
-                    percent: 0.35f
+                    percent: 0.5f
                 }
                 sound: {
                     on_block: "minecraft:block.iron.hit"
