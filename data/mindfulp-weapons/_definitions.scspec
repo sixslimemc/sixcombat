@@ -8,4 +8,5 @@
             # meant to be merged with item components
         }
     }
+    airborne_attributes[]: AttributeModifier
 }
