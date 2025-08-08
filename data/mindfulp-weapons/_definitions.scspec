@@ -1,12 +1,16 @@
 {
-    items: {
-        <$itemID...>: {
-            attributes[]: object
-            # meant to be directly appended to "attribute_modifiers" component.
+    cache: {
+        items: {
+            <$itemID...>: {
+                attributes[]: object
+                # meant to be directly appended to "attribute_modifiers" component.
 
-            components: object
-            # meant to be merged with item components
+                components: object
+                # meant to be merged with item components
+            }
         }
+        
+        airborne_attributes[]: AttributeModifier
     }
-    airborne_attributes[]: AttributeModifier
+    
 }
