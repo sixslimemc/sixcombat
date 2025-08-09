@@ -9,19 +9,6 @@
             knockback: 0f
             range_modifier: 0f
             disable_block_seconds: 0f
-            blocks_attacks: {
-                delay: 0.05f (+-0.01)
-                disable_cooldown_scale: 0.8f
-                max_angle: 60f
-                damage_reduction: {
-                    base: 0f
-                    percent: 0.48f (+- 0.08)
-                }
-                sound: {
-                    on_block: "minecraft:item.shield.block"
-                    on_disable: "minecraft.entity.iron_golem.attack"
-                }
-            }
         },
         {
             item: "minecraft:iron_axe"
