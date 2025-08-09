@@ -5,7 +5,7 @@
         {
             item: "minecraft:iron_sword"
             damage: 4.0f
-            attack_speed: 1.4f (+-0.06)
+            attack_speed: 1.3f (+-0.06)
             knockback: 0f
             range_modifier: 0f
             disable_block_seconds: 0f
@@ -16,7 +16,7 @@
             attack_speed: 0.9f (+-0.04)
             knockback: 0f
             range_modifier: 0f
-            disable_block_seconds: 5.0 (+-0.5)
+            disable_block_seconds: 6.0 (+-0.5)
             blocks_attacks: false
         },
         {
