@@ -101,4 +101,5 @@ WeaponConfig := {
     # specifies how this weapon blocks attacks.
     # does not block attacks if false.
 
+    additional_modifiers[]: AttributeModifier
 }

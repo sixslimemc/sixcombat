@@ -46,6 +46,11 @@ execute if data storage mindfulp-weapons:_ x.bdata.sound.on_disable unless data 
 
 execute unless data storage mindfulp-weapons:_ var.cache.this_weapon{blocks_attacks:false} run data modify storage mindfulp-weapons:_ var.cache.entry.components."minecraft:blocks_attacks" set from storage mindfulp-weapons:_ x.bcomp
 
+# additional attributes:
+data modify storage mindfulp-weapons:_ x.attrs set from storage mindfulp-weapons:_ var.cache.this_weapon.additional_modifiers
+execute if data storage mindfulp-weapons:_ x.attrs[0] run data modify storage mindfulp-weapons:_ x.attrs[] merge value {slot:"mainhand", display:{type:"default"}, id:"mindfulp-weapons:item_additional_modifier"}
+data modify storage mindfulp-weapons:_ var.cache.entry.attributes append from storage mindfulp-weapons:_ x.attrs[]
+
 # add to map:
 data merge storage mindfulp-weapons:_ {x:{mline:{1:"data modify storage mindfulp-weapons:_ cache.items.'", 2:true, 3:"' set from storage mindfulp-weapons:_ var.cache.entry"}}}
 data modify storage mindfulp-weapons:_ x.mline.2 set from storage mindfulp-weapons:_ var.cache.this_weapon.item
