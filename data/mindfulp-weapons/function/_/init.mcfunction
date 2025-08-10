@@ -108,32 +108,32 @@ data modify storage mindfulp-weapons:config weapons[-1] merge value {knockback:0
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:wooden_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:2f, attack_speed:1.32f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.15f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.17f}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:stone_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:3f, attack_speed:1.26f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.165f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.185f}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:iron_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4f, attack_speed:1.2f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.18f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.2f}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:diamond_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:5f, attack_speed:1.14f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.195f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.215f}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:netherite_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:6f, attack_speed:1.08f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.21f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.23f}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:golden_shovel"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4.5f, attack_speed:1.05f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.1875f}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {range_modifier:0.2075f}
 data modify storage mindfulp-weapons:config weapons[-1] merge value {knockback:0.5f}
 
 # pickaxes:
