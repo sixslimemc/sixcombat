@@ -1,0 +1,44 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.mindfulp-weapons.necrobane",
+        "fallback": "Necro Bane"
+	},
+	"effects": {
+		"minecraft:damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 1.5,
+						"per_level_above_first": 1
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "#mindfulp-weapons:enchantments/sensitive_to_necrobane"
+					}
+				}
+			}
+		]
+	},
+	"exclusive_set": "#mindfulp-weapons:melee/class_b",
+	"max_level": 4,
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 12
+	},
+	"min_cost": {
+		"base": 6,
+		"per_level_above_first": 12
+	},
+	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"weight": 5
+}
