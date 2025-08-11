@@ -2,7 +2,7 @@
 	"anvil_cost": 2,
 	"description": {
 		"translate": "enchantment.mindfulp-weapons.faunbane",
-        "fallback": "Faun Bane"
+        "fallback": "Faunbane"
 	},
 	"effects": {
 		"minecraft:damage": [
@@ -11,8 +11,8 @@
 					"type": "minecraft:add",
 					"value": {
 						"type": "minecraft:linear",
-						"base": 1.5,
-						"per_level_above_first": 1
+						"base": 2.5,
+						"per_level_above_first": 2.5
 					}
 				},
 				"requirements": {
@@ -26,14 +26,14 @@
 		]
 	},
 	"exclusive_set": "#mindfulp-weapons:melee/class_b",
-	"max_level": 4,
+	"max_level": 2,
 	"max_cost": {
-		"base": 24,
-		"per_level_above_first": 12
+		"base": 65,
+		"per_level_above_first": 20
 	},
 	"min_cost": {
-		"base": 5,
-		"per_level_above_first": 12
+		"base": 20,
+		"per_level_above_first": 20
 	},
 	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
 	"slots": [
