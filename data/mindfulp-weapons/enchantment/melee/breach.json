@@ -1,5 +1,5 @@
 {
-	"anvil_cost": 4,
+	"anvil_cost": 2,
 	"description": {
 		"translate": "enchantment.mindfulp-weapons.breach",
         "fallback": "Breach"
@@ -11,8 +11,8 @@
 					"type": "minecraft:add",
 					"value": {
 						"type": "minecraft:linear",
-						"base": -0.20,
-						"per_level_above_first": -0.15
+						"base": -0.15,
+						"per_level_above_first": -0.1
 					}
 				}
 			}
