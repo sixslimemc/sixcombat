@@ -1,0 +1,45 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.mindfulp-weapons.ignite",
+        "fallback": "Ignite"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"affected": "victim",
+				"effect": {
+					"type": "minecraft:ignite",
+					"duration": {
+						"type": "minecraft:linear",
+						"base": 4,
+						"per_level_above_first": 2.8
+					}
+				},
+				"enchanted": "attacker",
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": true
+					}
+				}
+			}
+		]
+	},
+	"max_level": 3,
+	"exclusive_set": "#mindfulp-weapons:melee/class_c",
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 15
+	},
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 15
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"weight": 2
+}
