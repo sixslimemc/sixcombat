@@ -1,31 +1,43 @@
 {
-	"anvil_cost": 4,
+	"anvil_cost": 2,
 	"description": {
-		"translate": "enchantment.mindfulp-weapons.breach",
-        "fallback": "Breach"
+		"translate": "enchantment.mindfulp-weapons.shatter",
+		"fallback": "Shatter"
 	},
 	"effects": {
-		"minecraft:armor_effectiveness": [
+		"minecraft:damage": [
 			{
 				"effect": {
 					"type": "minecraft:add",
 					"value": {
 						"type": "minecraft:linear",
-						"base": -0.20,
-						"per_level_above_first": -0.15
+						"base": -2,
+						"per_level_above_first": -2
 					}
 				}
 			}
+		],
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:attack_damage",
+				"id": "mindfulp-weapons:enchantment/shatter",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 2,
+					"per_level_above_first": 2
+				},
+				"operation": "add_value"
+			}
 		]
 	},
-	"max_level": 4,
 	"exclusive_set": "#mindfulp-weapons:melee/class_b",
+	"max_level": 4,
 	"max_cost": {
 		"base": 26,
 		"per_level_above_first": 12
 	},
 	"min_cost": {
-		"base": 8,
+		"base": 9,
 		"per_level_above_first": 12
 	},
 	"slots": [
@@ -33,5 +45,5 @@
 	],
 	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
 	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
-	"weight": 5
+	"weight": 4
 }
