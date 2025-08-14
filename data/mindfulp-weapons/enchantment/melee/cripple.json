@@ -1,0 +1,26 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.mindfulp-weapons.cripple",
+        "fallback": "Cripple"
+	},
+	"effects": {
+		
+	},
+	"max_level": 4,
+	"exclusive_set": "#mindfulp-weapons:melee/class_b",
+	"max_cost": {
+		"base": 26,
+		"per_level_above_first": 12
+	},
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 12
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"weight": 5
+}

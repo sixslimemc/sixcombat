@@ -2,16 +2,20 @@
     "values": [
         "mindfulp-weapons:melee/sharpness",
         "mindfulp-weapons:melee/quickness",
+        "mindfulp-weapons:melee/ignite",
+        "mindfulp-weapons:melee/breach",
+        "mindfulp-weapons:melee/cleave",
+        "mindfulp-weapons:melee/knockback",
+        "mindfulp-weapons:melee/cripple",
+        "mindfulp-weapons:melee/shred",
+        "mindfulp-weapons:melee/shatter",
         "mindfulp-weapons:melee/aquabane",
         "mindfulp-weapons:melee/necrobane",
         "mindfulp-weapons:melee/exsilbane",
         "mindfulp-weapons:melee/faunbane",
         "mindfulp-weapons:melee/arthrobane",
-        "mindfulp-weapons:melee/ignite",
-        "mindfulp-weapons:melee/breach",
-        "mindfulp-weapons:melee/cleave",
-        "mindfulp-weapons:melee/knockback",
-        "mindfulp-weapons:melee/shred",
-        "mindfulp-weapons:melee/shatter"
+        "mindfulp-weapons:melee/arcana",
+        "mindfulp-weapons:melee/zeal",
+        "mindfulp-weapons:melee/overcharge"
     ]
 }

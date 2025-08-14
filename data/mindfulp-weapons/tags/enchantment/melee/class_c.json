@@ -1,5 +1,7 @@
 {
     "values": [
-        "mindfulp-weapons:melee/overcharge"
+        "mindfulp-weapons:melee/overcharge",
+        "mindfulp-weapons:melee/arcana",
+        "mindfulp-weapons:melee/zeal"
     ]
 }
