@@ -8,7 +8,7 @@
 		
 	},
 	"exclusive_set": "#mindfulp-weapons:melee/class_c",
-	"max_level": 4,
+	"max_level": 3,
 	"max_cost": {
 		"base": 46,
 		"per_level_above_first": 14

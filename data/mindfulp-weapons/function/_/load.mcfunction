@@ -7,6 +7,7 @@ scoreboard objectives add _mindfulp-weapons dummy
 
 # constants:
 scoreboard players set *4 _mindfulp-weapons 4
+scoreboard players set *10 _mindfulp-weapons 10
 
 # DEBUG:
 scoreboard players reset *init _mindfulp-weapons
