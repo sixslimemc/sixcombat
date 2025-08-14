@@ -1,0 +1,55 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.mindfulp-weapons.overcharge",
+		"fallback": "Overcharge"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:attack_damage",
+				"id": "mindfulp-weapons:enchantment/overcharge",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 12.5,
+					"per_level_above_first": 7.5
+				},
+				"operation": "add_multiplied_total"
+			},
+			{
+				"attribute": "minecraft:attack_speed",
+				"id": "mindfulp-weapons:enchantment/overcharge",
+				"amount": {
+					"type": "minecraft:fraction",
+					"numerator": {
+						"type": "minecraft:linear",
+						"base": 12.5,
+						"per_level_above_first": 7.5
+					},
+					"denominator": {
+						"type": "minecraft:linear",
+						"base": 112.5,
+						"per_level_above_first": 7.5
+					}
+				},
+				"operation": "add_multiplied_total"
+			}
+		]
+	},
+	"exclusive_set": "#mindfulp-weapons:melee/class_c",
+	"max_level": 4,
+	"max_cost": {
+		"base": 44,
+		"per_level_above_first": 14
+	},
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 14
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
+	"weight": 3
+}

@@ -4,6 +4,7 @@
         "mindfulp-weapons:melee/ignite",
         "mindfulp-weapons:melee/cleave",
         "mindfulp-weapons:melee/knockback",
+        "mindfulp-weapons:melee/shred",
         "mindfulp-weapons:melee/shatter"
     ]
 }
