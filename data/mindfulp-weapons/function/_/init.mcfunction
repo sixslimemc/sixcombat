@@ -18,32 +18,32 @@ data modify storage mindfulp-weapons:config weapons set value []
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:wooden_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:2f, attack_speed:1.42f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:stone_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:3f, attack_speed:1.36f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:iron_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4f, attack_speed:1.3f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:diamond_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:5f, attack_speed:1.24f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:netherite_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:6f, attack_speed:1.18f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage mindfulp-weapons:config weapons append from storage mindfulp-weapons:_ x.base_weapon
 data modify storage mindfulp-weapons:config weapons[-1].item set value "minecraft:golden_sword"
 data modify storage mindfulp-weapons:config weapons[-1] merge value {damage:4.5f, attack_speed:1.15f}
-data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.2f, operation:"add_value"}]}
+data modify storage mindfulp-weapons:config weapons[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 data modify storage mindfulp-weapons:config weapons[-1] merge value {knockback:0.5f}
 
 # axes:

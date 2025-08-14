@@ -1,6 +1,9 @@
 {
     "values": [
         "mindfulp-weapons:melee/breach",
-        "mindfulp-weapons:melee/ignite"
+        "mindfulp-weapons:melee/ignite",
+        "mindfulp-weapons:melee/cleave",
+        "mindfulp-weapons:melee/knockback",
+        "mindfulp-weapons:melee/shatter"
     ]
 }

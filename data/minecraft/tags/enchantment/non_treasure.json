@@ -8,6 +8,9 @@
         "mindfulp-weapons:melee/faunbane",
         "mindfulp-weapons:melee/arthrobane",
         "mindfulp-weapons:melee/ignite",
-        "mindfulp-weapons:melee/breach"
+        "mindfulp-weapons:melee/breach",
+        "mindfulp-weapons:melee/cleave",
+        "mindfulp-weapons:melee/knockback",
+        "mindfulp-weapons:melee/shatter"
     ]
 }
