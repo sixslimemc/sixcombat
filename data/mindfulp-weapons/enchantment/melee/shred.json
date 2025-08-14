@@ -22,5 +22,5 @@
 	],
 	"supported_items": "#mindfulp-weapons:enchantable/basic_melee",
 	"primary_items": "#mindfulp-weapons:enchantable/basic_melee",
-	"weight": 3
+	"weight": 5
 }
