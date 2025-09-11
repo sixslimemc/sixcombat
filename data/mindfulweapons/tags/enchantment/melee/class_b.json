@@ -1,0 +1,11 @@
+{
+    "values": [
+        "mindfulweapons:melee/breach",
+        "mindfulweapons:melee/ignite",
+        "mindfulweapons:melee/cleave",
+        "mindfulweapons:melee/knockback",
+        "mindfulweapons:melee/shred",
+        "mindfulweapons:melee/cripple",
+        "mindfulweapons:melee/shatter"
+    ]
+}

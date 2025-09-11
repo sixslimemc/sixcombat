@@ -1,0 +1,37 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.mindfulweapons.breach",
+        "fallback": "Breach"
+	},
+	"effects": {
+		"minecraft:armor_effectiveness": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": -0.15,
+						"per_level_above_first": -0.1
+					}
+				}
+			}
+		]
+	},
+	"max_level": 4,
+	"exclusive_set": "#mindfulweapons:melee/class_b",
+	"max_cost": {
+		"base": 26,
+		"per_level_above_first": 12
+	},
+	"min_cost": {
+		"base": 8,
+		"per_level_above_first": 12
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#mindfulweapons:enchantable/basic_melee",
+	"primary_items": "#mindfulweapons:enchantable/basic_melee",
+	"weight": 5
+}
