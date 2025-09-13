@@ -12,5 +12,14 @@
         
         airborne_attributes[]: AttributeModifier
     }
-    
+}
+
+_BlockingData := {
+    persist_ticks: int
+    attributes: AttributeModifier << {
+        id: string
+    }
+}
+@item:custom_data := {
+    blocking_data: _BlockingData
 }

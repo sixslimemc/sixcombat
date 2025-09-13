@@ -1,8 +1,1 @@
 
-@item:custom_data {
-    shield: {
-        type: 'wooden' | 'copper' | 'iron' | 'diamond' | 'netherite' | 'gold' | {
-            custom: ShieldConfig
-        }
-    }
-}
