@@ -3,7 +3,7 @@
 # <!> itemd:itemd
 #--------------------
 
-execute if items entity @s container.* *[minecraft:custom_data~{_:true}] run return 0
+execute if items entity @s container.0 *[minecraft:custom_data~{_:true}] run return 0
 
 data modify storage sixcombat:_ x.item set from entity @s item.id
 execute store success score *x _sixcombat run function sixcombat:_/itemd/get_item with storage sixcombat:_ x
