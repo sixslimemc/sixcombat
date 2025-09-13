@@ -1,21 +1,21 @@
 {
     "values": [
-        "mindfulweapons:melee/sharpness",
-        "mindfulweapons:melee/quickness",
-        "mindfulweapons:melee/ignite",
-        "mindfulweapons:melee/breach",
-        "mindfulweapons:melee/cleave",
-        "mindfulweapons:melee/knockback",
-        "mindfulweapons:melee/cripple",
-        "mindfulweapons:melee/shred",
-        "mindfulweapons:melee/shatter",
-        "mindfulweapons:melee/aquabane",
-        "mindfulweapons:melee/necrobane",
-        "mindfulweapons:melee/exsilbane",
-        "mindfulweapons:melee/faunbane",
-        "mindfulweapons:melee/arthrobane",
-        "mindfulweapons:melee/arcana",
-        "mindfulweapons:melee/zeal",
-        "mindfulweapons:melee/overcharge"
+        "sixcombat:melee/sharpness",
+        "sixcombat:melee/quickness",
+        "sixcombat:melee/ignite",
+        "sixcombat:melee/breach",
+        "sixcombat:melee/cleave",
+        "sixcombat:melee/knockback",
+        "sixcombat:melee/cripple",
+        "sixcombat:melee/shred",
+        "sixcombat:melee/shatter",
+        "sixcombat:melee/aquabane",
+        "sixcombat:melee/necrobane",
+        "sixcombat:melee/exsilbane",
+        "sixcombat:melee/faunbane",
+        "sixcombat:melee/arthrobane",
+        "sixcombat:melee/arcana",
+        "sixcombat:melee/zeal",
+        "sixcombat:melee/overcharge"
     ]
 }

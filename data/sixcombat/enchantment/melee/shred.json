@@ -1,0 +1,26 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.sixcombat.shred",
+		"fallback": "Shred"
+	},
+	"effects": {
+		
+	},
+	"exclusive_set": "#sixcombat:melee/class_b",
+	"max_level": 4,
+	"max_cost": {
+		"base": 26,
+		"per_level_above_first": 12
+	},
+	"min_cost": {
+		"base": 9,
+		"per_level_above_first": 12
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#sixcombat:enchantable/basic_melee",
+	"primary_items": "#sixcombat:enchantable/basic_melee",
+	"weight": 5
+}

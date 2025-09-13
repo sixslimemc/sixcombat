@@ -1,0 +1,44 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.sixcombat.necrobane",
+        "fallback": "Necrobane"
+	},
+	"effects": {
+		"minecraft:damage": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 3,
+						"per_level_above_first": 3
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "#sixcombat:enchantments/sensitive_to_necrobane"
+					}
+				}
+			}
+		]
+	},
+	"exclusive_set": "#sixcombat:melee/class_d",
+	"max_level": 2,
+	"max_cost": {
+		"base": 65,
+		"per_level_above_first": 20
+	},
+	"min_cost": {
+		"base": 20,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#sixcombat:enchantable/basic_melee",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#sixcombat:enchantable/basic_melee",
+	"weight": 2
+}

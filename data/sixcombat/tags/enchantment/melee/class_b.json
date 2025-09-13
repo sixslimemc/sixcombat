@@ -1,0 +1,11 @@
+{
+    "values": [
+        "sixcombat:melee/breach",
+        "sixcombat:melee/ignite",
+        "sixcombat:melee/cleave",
+        "sixcombat:melee/knockback",
+        "sixcombat:melee/shred",
+        "sixcombat:melee/cripple",
+        "sixcombat:melee/shatter"
+    ]
+}
