@@ -9,7 +9,7 @@ data remove storage sixcombat:_ cache
 data modify storage sixcombat:_ var.cache.melees set from storage sixcombat:config melee
 execute if data storage sixcombat:_ var.cache.melees[0] run function sixcombat:_/cache/melees/each
 
-# melees:
+# armors:
 data modify storage sixcombat:_ var.cache.armors set from storage sixcombat:config armor
 execute if data storage sixcombat:_ var.cache.armors[0] run function sixcombat:_/cache/armors/each
 

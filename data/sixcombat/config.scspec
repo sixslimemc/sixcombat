@@ -9,6 +9,19 @@ TODO: populate
     #
     = TODO
 
+    shield: {
+        wooden: ShieldConfig
+        copper: ShieldConfig
+        iron: ShieldConfig
+        diamond: ShieldConfig
+        netherite: ShieldConfig
+        golden: ShieldConfig
+    }
+
+    shield_fallback_type: string
+    # assumed shield type of default shields (e.g. shields found in loot or acquired via anaccounted means).
+    = "iron"
+
     airborne_modifiers[]: AttributeModifier
     #
     = [
@@ -45,19 +58,7 @@ MeleeConfig := {
     disable_block_seconds: float
     # seconds this disables blocking
 
-    block_attacks: false | {
-        delay: float
-        disable_cooldown_scale: float
-        max_angle: float
-        damage_reduction: {
-            base: float
-            percent: float
-        }
-        sound: false | {
-            on_block: false | string
-            on_disable: false | string
-        }
-    } 
+    block_attacks: false | BlockingConfig
     # specifies how this weapon blocks attacks.
     # does not block attacks if false.
 
@@ -73,3 +74,29 @@ ArmorConfig := {
     knockback_resist: float
     additional_modifiers[]: AttributeModifier
 }
+
+ShieldConfig := {
+    durability: int
+    movement_speed_modifier: float
+    additional_modifiers[]: AttributeModifier
+    block: BlockingConfig
+}
+
+BlockingConfig := {
+    delay_ticks: int
+    disable_cooldown_scale: float
+    max_angle: float
+    damage_reduction: {
+        base: float
+        percent: float
+    }
+    sound: false | {
+        on_block: false | string
+        on_disable: false | string
+    }
+    blocking_modifiers: {
+        attack_speed: float
+        additional[]: AttributeModifier
+        persist_ticks: int
+    }
+} 
