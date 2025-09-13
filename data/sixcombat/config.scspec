@@ -3,52 +3,11 @@ TODO: populate
 {
     melee[]: MeleeConfig
     #
-    = [
-        {
-            item: "minecraft:iron_sword"
-            damage: 4.0f
-            attack_speed: 1.3f (+-0.06)
-            knockback: 0f
-            range_modifier: 0f
-            disable_block_seconds: 0f
-        },
-        {
-            item: "minecraft:iron_axe"
-            damage: 6.0f
-            attack_speed: 0.9f (+-0.04)
-            knockback: 0f
-            range_modifier: 0f
-            disable_block_seconds: 6.0 (+-0.5)
-            blocks_attacks: false
-        },
-        {
-            item: "minecraft:iron_hoe"
-            damage: 4f
-            attack_speed: 1.95f (+-0.04)
-            knockback: 0f
-            range_modifier: 0f
-            disable_block_seconds: 0f
-            blocks_attacks: false
-        },
-        {
-            item: "minecraft:iron_shovel"
-            damage: 4.0f
-            attack_speed: 1.2f (+-0.06)
-            knockback: 0f
-            range_modifier: 0.18f (+-0.015)
-            disable_block_seconds: 0f
-            blocks_attacks: false
-        },
-        {
-            item: "minecraft:iron_pickaxe"
-            damage: 8.0f
-            attack_speed: 0.72f (+-0.04)
-            knockback: 0f
-            range_modifier: -0.24f (+-0.02)
-            disable_block_seconds: 0f
-            blocks_attacks: false
-        },
-    ]
+    = TODO
+
+    armor[]: ArmorConfig
+    #
+    = TODO
 
     airborne_modifiers[]: AttributeModifier
     #
@@ -66,6 +25,7 @@ AttributeModifier := {
     amount: float
     operation: $attributeOperation
 }
+
 MeleeConfig := {
     item: $itemID
     # item this config applies to
@@ -101,5 +61,15 @@ MeleeConfig := {
     # specifies how this weapon blocks attacks.
     # does not block attacks if false.
 
+    additional_modifiers[]: AttributeModifier
+}
+
+ArmorConfig := {
+    item: $itemID
+    slot: 'head' | 'chest' | 'legs' | 'feet'
+    armor: float
+    armor_toughness: float
+    movement_speed_modifier: float
+    knockback_resist: float
     additional_modifiers[]: AttributeModifier
 }
