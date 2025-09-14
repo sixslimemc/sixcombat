@@ -7,6 +7,7 @@ scoreboard objectives add _sixcombat dummy
 
 # constants:
 scoreboard players set *4 _sixcombat 4
+scoreboard players set *2 _sixcombat 2
 scoreboard players set *5 _sixcombat 5
 scoreboard players set *10 _sixcombat 10
 scoreboard players set *100 _sixcombat 100

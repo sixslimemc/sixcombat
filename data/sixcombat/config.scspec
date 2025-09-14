@@ -87,9 +87,9 @@ BlockingConfig := {
         base: float
         percent: float
     }
-    sound? {
-        on_block? string
-        on_disable? string
+    sound: {
+        on_block: string
+        on_disable: string
     }
     blocking_modifiers: {
         attack_speed: float
