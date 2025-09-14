@@ -17,5 +17,5 @@ execute if data storage sixcombat:_ var.itemd.original.components."minecraft:cus
 execute unless data storage sixcombat:_ var.itemd.modified run return 0
 
 data modify entity @s item.components merge from storage sixcombat:_ var.itemd.modified.components
-data modify entity @s item.components."minecraft:attribute_modifiers" append from storage sixcombat:_ var.itemd.get_item.attributes[]
+data modify entity @s item.components."minecraft:attribute_modifiers" append from storage sixcombat:_ var.itemd.modified.attributes[]
 execute if data storage sixcombat:_ var.itemd.modified.lore[0] run data modify entity @s item.components."minecraft:lore" append from storage sixcombat:_ var.itemd.modified.lore[]

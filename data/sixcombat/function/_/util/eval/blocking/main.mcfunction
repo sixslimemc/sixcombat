@@ -22,11 +22,11 @@ data modify storage sixcombat:_ util.out.blocking.component.disable_cooldown_sca
 data modify storage sixcombat:_ util.out.blocking.component.damage_reductions set value [{}]
 data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].horizontal_blocking_angle set from storage sixcombat:_ u.blocking.in.max_angle
 data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].base set from storage sixcombat:_ u.blocking.in.damage_reduction.base
-data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].factor set from storage sixcombat:_ u.blocking.in.damage_reduction.factor
+data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].factor set from storage sixcombat:_ u.blocking.in.damage_reduction.percent
 
 data modify storage sixcombat:_ util.out.blocking.component.item_damage.threshold set from storage sixcombat:_ u.blocking.in.damage_reduction.base
 data modify storage sixcombat:_ util.out.blocking.component.item_damage.base set value 0
-data modify storage sixcombat:_ util.out.blocking.component.item_damage.factor set from storage sixcombat:_ u.blocking.in.damage_reduction.factor
+data modify storage sixcombat:_ util.out.blocking.component.item_damage.factor set from storage sixcombat:_ u.blocking.in.damage_reduction.percent
 
 data modify storage sixcombat:_ util.out.blocking.component.block_sound set from storage sixcombat:_ u.blocking.in.sound.on_block
 data modify storage sixcombat:_ util.out.blocking.component.disabled_sound set from storage sixcombat:_ u.blocking.in.sound.disabled_sound
@@ -50,25 +50,25 @@ data modify storage sixcombat:_ util.out.blocking.lore append value {text:"Block
 execute store result score *u.blocking.block_percent _sixcombat run data get storage sixcombat:_ util.out.blocking.component.damage_reductions[0].factor 100
 execute store result storage sixcombat:_ u.blocking.persist_seconds float 0.05 run data get storage sixcombat:_ util.out.blocking.blocking_data.persist_ticks
 
-data modify storage six:in resolve.text set value [{text:" Amount: ", color:"blue", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.damage_reductions[0].base", italic:false, color:"gray"}, {text:" + ", color:"gray", italic:false}, {score:{name:"*u.blocking.block_percent", objective:"_sixcombat"}, italic:false, color:"gold"}, {text:"%", color:"gold", italic:false}]
+data modify storage six:in resolve.text set value [{text:" Block: ", color:"dark_green", italic:false}, {score:{name:"*u.blocking.block_percent", objective:"_sixcombat"}, italic:false, color:"gold"}, {text:"%", color:"gold", italic:false}, {text:" + ", color:"gray", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.damage_reductions[0].base", italic:false, color:"gray"}]
 function six:text/resolve
 data modify storage sixcombat:_ util.out.blocking.lore append from storage six:out resolve.result
 
-data modify storage six:in resolve.text set value [{text:" Preparation Delay: ", color:"blue", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.block_delay_seconds", italic:false, color:"gray"}, {text:"s", color:"gray", italic:false}]
+data modify storage six:in resolve.text set value [{text:" Delay: ", color:"dark_green", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.block_delay_seconds", italic:false, color:"red"}, {text:" (sec)", color:"dark_gray", italic:false}]
 function six:text/resolve
 data modify storage sixcombat:_ util.out.blocking.lore append from storage six:out resolve.result
 
-data modify storage six:in resolve.text set value [{text:" Angle: ", color:"blue", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.damage_reductions[0].horizontal_blocking_angle", italic:false, color:"dark_gray"}]
+data modify storage six:in resolve.text set value [{text:" Angle: ", color:"dark_green", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.damage_reductions[0].horizontal_blocking_angle", italic:false, color:"gray"}, {text: " (deg)", color:"dark_gray", italic:false}]
 function six:text/resolve
 data modify storage sixcombat:_ util.out.blocking.lore append from storage six:out resolve.result
 
-data modify storage six:in resolve.text set value [{text:" Cooldown Factor: ", color:"blue", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.damage_reductions[0].disable_cooldown_scale", italic:false, color:"red"}]
+data modify storage six:in resolve.text set value [{text:" Cooldown Factor: ", color:"dark_green", italic:false}, {storage:"sixcombat:_", nbt:"util.out.blocking.component.disable_cooldown_scale", italic:false, color:"yellow"}]
 function six:text/resolve
 data modify storage sixcombat:_ util.out.blocking.lore append from storage six:out resolve.result
 
 # while blocking and <x>s after:
 data modify storage sixcombat:_ util.out.blocking.lore append value ""
-data modify storage six:in resolve.text set value [{text:"While Blocking and ", color:"gray", italic:false}, {storage:"sixcombat:_", nbt:"u.blocking.persist_seconds", color:"white", italic:false}, {text:"s", color:"white", italic:false}, {text:" Afterward:", color:"gray", italic:false}]
+data modify storage six:in resolve.text set value [{text:"While Blocking and ", color:"gray", italic:false}, {storage:"sixcombat:_", nbt:"u.blocking.persist_seconds", color:"white", italic:false}, {text:" sec.", color:"gray", italic:false}, {text:" After:", color:"gray", italic:false}]
 function six:text/resolve
 data modify storage sixcombat:_ util.out.blocking.lore append from storage six:out resolve.result
 
