@@ -20,7 +20,10 @@
 					}
 				}
 			},
-			"minecraft:item_name": "Iron Shield",
+			"minecraft:item_name": {
+				"text":"Iron Shield",
+				"color":"gray"
+			},
 			"!minecraft:max_damage": {},
 			"!minecraft:blocks_attacks": {}
 		},

@@ -13,6 +13,11 @@ execute if data storage sixcombat:_ var.cache.melees[0] run function sixcombat:_
 data modify storage sixcombat:_ var.cache.armors set from storage sixcombat:config armor
 execute if data storage sixcombat:_ var.cache.armors[0] run function sixcombat:_/cache/armors/each
 
+# shield types:
+data modify storage sixcombat:_ var.cache.shields set from storage sixcombat:config shield
+data modify storage sixcombat:_ var.cache.shield_types set value ['wooden', 'copper', 'iron', 'diamond', 'netherite', 'golden']
+execute if data storage sixcombat:_ var.cache.shield_types[0] run function sixcombat:_/cache/shield_types/each
+
 # airborne_attributes:
 data modify storage sixcombat:_ cache.airborne_modifiers set from storage sixcombat:config airborne_modifiers
 
