@@ -18,6 +18,9 @@ data modify storage sixcombat:_ var.cache.shields set from storage sixcombat:con
 data modify storage sixcombat:_ var.cache.shield_types set value ['wooden', 'copper', 'iron', 'diamond', 'netherite', 'golden']
 execute if data storage sixcombat:_ var.cache.shield_types[0] run function sixcombat:_/cache/shield_types/each
 
+# shield fallback:
+data modify storage sixcombat:_ cache.shield_fallback set from storage sixcombat:config shield.fallback
+
 # airborne_attributes:
 data modify storage sixcombat:_ cache.airborne_modifiers set from storage sixcombat:config airborne_modifiers
 

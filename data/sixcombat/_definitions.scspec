@@ -11,6 +11,7 @@
             netherite: _CachedItem
             golden: _CachedItem
         }
+        shield_fallback: ShieldType
         airborne_attributes[]: AttributeModifier
     }
 }
