@@ -1,1 +1,4 @@
 
+ShieldType := 'wooden' | 'copper' | 'iron' | 'diamond' | 'netherite' | 'golden' | {
+    custom: ShieldConfig
+}

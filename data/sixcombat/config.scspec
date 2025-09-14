@@ -16,11 +16,8 @@ TODO: populate
         diamond: ShieldConfig
         netherite: ShieldConfig
         golden: ShieldConfig
+        fallback: ShieldType
     }
-
-    shield_fallback_type: string
-    # assumed shield type of default shields (e.g. shields found in loot or acquired via anaccounted means).
-    = "iron"
 
     airborne_modifiers[]: AttributeModifier
     #

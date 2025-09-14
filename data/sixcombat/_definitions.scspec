@@ -1,20 +1,28 @@
 {
     cache: {
         items: {
-            <$itemID...>: {
-                attributes[]: object
-                # meant to be directly appended to "attribute_modifiers" component.
-                lore[]? textObject
-                # meant to be appended to "lore" component
-                components: object
-                # meant to be merged with item components
-            }
+            <$itemID...>: _CachedItem
         }
-        
+        shields: {
+            wooden: _CachedItem
+            copper: _CachedItem
+            iron: _CachedItem
+            diamond: _CachedItem
+            netherite: _CachedItem
+            golden: _CachedItem
+        }
         airborne_attributes[]: AttributeModifier
     }
 }
 
+_CachedItem := {
+    attributes[]: object
+    # meant to be directly appended to "attribute_modifiers" component.
+    lore[]? textObject
+    # meant to be appended to "lore" component
+    components: object
+    # meant to be merged with item components
+}
 _BlockingData := {
     persist_ticks: int
     attributes: AttributeModifier << {
