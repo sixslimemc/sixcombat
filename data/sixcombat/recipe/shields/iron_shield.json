@@ -21,7 +21,8 @@
 				}
 			},
 			"minecraft:item_name": "Iron Shield",
-			"!minecraft:max_damage": {}
+			"!minecraft:max_damage": {},
+			"!minecraft:blocks_attacks": {}
 		},
 		"count": 1,
 		"id": "minecraft:shield"

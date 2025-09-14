@@ -58,9 +58,9 @@ MeleeConfig := {
     disable_block_seconds: float
     # seconds this disables blocking
 
-    block_attacks: false | BlockingConfig
+    block_attacks? BlockingConfig
     # specifies how this weapon blocks attacks.
-    # does not block attacks if false.
+    # does not block attacks if not specified
 
     additional_modifiers[]: AttributeModifier
 }

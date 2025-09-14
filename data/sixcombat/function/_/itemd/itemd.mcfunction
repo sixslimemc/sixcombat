@@ -12,3 +12,4 @@ execute unless score *x _sixcombat matches 1 run return 0
 
 data modify entity @s item.components merge from storage sixcombat:_ var.itemd.get_item.components
 data modify entity @s item.components."minecraft:attribute_modifiers" append from storage sixcombat:_ var.itemd.get_item.attributes[]
+execute if data storage sixcombat:_ var.itemd.get_item.lore[0] run data modify entity @s item.components."minecraft:lore" append from storage sixcombat:_ var.itemd.get_item.lore[]

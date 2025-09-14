@@ -4,7 +4,8 @@
             <$itemID...>: {
                 attributes[]: object
                 # meant to be directly appended to "attribute_modifiers" component.
-
+                lore[]? textObject
+                # meant to be appended to "lore" component
                 components: object
                 # meant to be merged with item components
             }
