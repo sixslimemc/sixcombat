@@ -24,9 +24,9 @@ data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0]
 data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].base set from storage sixcombat:_ u.blocking.in.damage_reduction.base
 data modify storage sixcombat:_ util.out.blocking.component.damage_reductions[0].factor set from storage sixcombat:_ u.blocking.in.damage_reduction.percent
 
-data modify storage sixcombat:_ util.out.blocking.component.item_damage.threshold set from storage sixcombat:_ u.blocking.in.damage_reduction.base
+data modify storage sixcombat:_ util.out.blocking.component.item_damage.threshold set value 1
 data modify storage sixcombat:_ util.out.blocking.component.item_damage.base set value 0
-data modify storage sixcombat:_ util.out.blocking.component.item_damage.factor set from storage sixcombat:_ u.blocking.in.damage_reduction.percent
+data modify storage sixcombat:_ util.out.blocking.component.item_damage.factor set value 0.8f
 
 data modify storage sixcombat:_ util.out.blocking.component.block_sound set from storage sixcombat:_ u.blocking.in.sound.on_block
 data modify storage sixcombat:_ util.out.blocking.component.disabled_sound set from storage sixcombat:_ u.blocking.in.sound.disabled_sound

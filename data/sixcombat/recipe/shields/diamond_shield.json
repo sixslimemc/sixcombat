@@ -4,7 +4,7 @@
 	"category": "equipment",
 	"key": {
 		"w": "#minecraft:wooden_tool_materials",
-		"m": "#minecraft:iron_tool_materials"
+		"m": "#minecraft:diamond_tool_materials"
 	},
 	"pattern": [
 		"www",
@@ -16,11 +16,11 @@
 			"minecraft:custom_data": {
 				"sixcombat": {
 					"shield": {
-						"type": "iron"
+						"type": "diamond"
 					}
 				}
 			},
-			"minecraft:item_name": "Iron Shield"
+			"minecraft:item_name": "Diamond Shield"
 		},
 		"count": 1,
 		"id": "minecraft:shield"

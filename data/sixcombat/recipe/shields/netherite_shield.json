@@ -4,11 +4,12 @@
 	"category": "equipment",
 	"key": {
 		"w": "#minecraft:wooden_tool_materials",
-		"m": "#minecraft:iron_tool_materials"
+		"m": "#minecraft:diamond_tool_materials",
+		"n": "#minecraft:netherite_tool_materials"
 	},
 	"pattern": [
 		"www",
-		"mmm",
+		"mnm",
 		" w "
 	],
 	"result": {
@@ -16,11 +17,11 @@
 			"minecraft:custom_data": {
 				"sixcombat": {
 					"shield": {
-						"type": "iron"
+						"type": "netherite"
 					}
 				}
 			},
-			"minecraft:item_name": "Iron Shield"
+			"minecraft:item_name": "Netherite Shield"
 		},
 		"count": 1,
 		"id": "minecraft:shield"
