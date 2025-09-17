@@ -114,6 +114,7 @@
 - Direca | arrows slightly home toward targets.
 - Riccocha | arrows bounce L times on blocks.
 - Gravita | arrows have no gravity for the first 2 seconds of flight.
+- Thruphasa | arrows can phase through L walls, up to 2 blocks thick.
 
 # fletching
 - arrows are crafted normally, then brought to the fletching table to modify.
@@ -135,6 +136,7 @@ Flaming : blaze powder / - | shot on fire
 Aquatic : prismarine crystals / x | keep velocity underwater, and deal more damage to aquatic creatures
 Impact : iron ingot / x | reduces jump height, movement speed, attack damage, and attack speed by 100% very briefly.
 Pull : chain / x | limits max arrow range scaling with L (itemize on exceeding), pulls target toward you.
+
 
 Fragile Catalyst : eye of ender / - | arrows are unrecoverable, adds an additional modifier slot (takes 0 modifier slots)
 
