@@ -39,7 +39,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/basic_melee",
-	"primary_items": "#sixcombat:enchantable/basic_melee",
+	"supported_items": "#sixcombat:enchantable/melee",
+	"primary_items": "#sixcombat:enchantable/melee",
 	"weight": 5
 }

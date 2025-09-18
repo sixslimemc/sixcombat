@@ -31,7 +31,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/specific/cleave",
-	"primary_items": "#sixcombat:enchantable/specific/cleave",
+	"supported_items": "#sixcombat:enchantable/specific/melee/cleave",
+	"primary_items": "#sixcombat:enchantable/specific/melee/cleave",
 	"weight": 4
 }
