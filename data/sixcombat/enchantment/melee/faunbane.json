@@ -25,7 +25,7 @@
 			}
 		]
 	},
-	"exclusive_set": "#sixcombat:melee/bane",
+	"exclusive_set": "#sixcombat:melee/attunement",
 	"max_level": 2,
 	"max_cost": {
 		"base": 65,

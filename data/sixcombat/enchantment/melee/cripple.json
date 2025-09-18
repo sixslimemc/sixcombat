@@ -8,7 +8,7 @@
 		
 	},
 	"max_level": 4,
-	"exclusive_set": "#sixcombat:melee/infliction",
+	"exclusive_set": "#sixcombat:melee/inflection",
 	"max_cost": {
 		"base": 26,
 		"per_level_above_first": 12
