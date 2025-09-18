@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#sixcombat:enchantable/armor/class/head",
+        "#sixcombat:enchantable/armor/class/chest",
+        "#sixcombat:enchantable/armor/class/legs",
+        "#sixcombat:enchantable/armor/class/feet"
+    ]
+}
