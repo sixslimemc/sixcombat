@@ -30,7 +30,7 @@
 			}
 		]
 	},
-	"exclusive_set": "#sixcombat:melee/class_b",
+	"exclusive_set": "#sixcombat:melee/infliction",
 	"max_level": 4,
 	"max_cost": {
 		"base": 26,

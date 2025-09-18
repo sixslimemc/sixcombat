@@ -25,7 +25,7 @@
 			}
 		]
 	},
-	"exclusive_set": "#sixcombat:melee/class_d",
+	"exclusive_set": "#sixcombat:melee/bane",
 	"max_level": 2,
 	"max_cost": {
 		"base": 65,

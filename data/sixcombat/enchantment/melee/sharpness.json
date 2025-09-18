@@ -18,7 +18,7 @@
 			}
 		]
 	},
-	"exclusive_set": "#sixcombat:melee/class_a",
+	"exclusive_set": "#sixcombat:melee/axis",
 	"max_cost": {
 		"base": 21,
 		"per_level_above_first": 11

@@ -28,7 +28,7 @@
 			}
 		]
 	},
-	"exclusive_set": "#sixcombat:melee/class_c",
+	"exclusive_set": "#sixcombat:melee/specialization",
 	"max_level": 3,
 	"max_cost": {
 		"base": 45,
