@@ -3,4 +3,4 @@
 # ./itemd
 #--------------------
 
-$data modify storage sixcombat:_ var.itemd.modified set from storage sixcombat:_ cache.items.'$(item)'
+$data modify storage sixcombat:_ var.itemd.modified set from storage sixcombat:_ cache.items.'$(id)'
