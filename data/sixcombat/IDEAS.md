@@ -2,22 +2,22 @@
 # melee enchantments
 ~ Sword | Axe | Hoe | Shovel | Pickaxe - xxxxx
 ## class A (5) 
-- sharpness : xxxxx | increases on-hit damage by 0.5L
-- quickness : xxxxx | increases attack speed by 0.04L
+- sharpness | increases on-hit damage by 0.5L
+- quickness | increases attack speed by 0.04L
 
 ## class B (4)
-- shatter : xxxxx | decreases on-hit damage and increases damage attribute by 2 + 2L (effectively increasing crit damage by 1 + L
-- shred : xxxxx | adds (and refreshes) a stack of Shred to the target that lasts for 3 seconds, up to L stacks. deal 1 extra damage for each Shred stack on a target
-- breach : xxxxx | ignores 5 + 10L percent of target's armor
-- ignite : xxxxx | ignites target for 1.2 + 2.8L seconds
-- knockback : xxxxx | increases knockback by 0.25 + 0.75L
-- cripple : xxxxx | slows target by 5 + 15L decaying percent for 1 + 0.5L seconds
+- shatter | decreases on-hit damage and increases damage attribute by 2 + 2L (effectively increasing crit damage by 1 + L
+- shred | adds (and refreshes) a stack of Shred to the target that lasts for 3 seconds, up to L stacks. deal 1 extra damage for each Shred stack on a target
+- breach| ignores 5 + 10L percent of target's armor
+- ignite | ignites target for 1.2 + 2.8L seconds
+- knockback | increases knockback by 0.25 + 0.75L
+- cripple | slows target by 5 + 15L decaying percent for 1 + 0.5L seconds
 - cleave : x---- | increases sweeping damage ratio by 0.05 + 0.2L
 
 ## class C (3)
-- Overswing : xxxxx | let X = 5 + 7.5L; increases total attack damage by X percent, decreases total attack speed by 1-(100/(100 + X))
-- Zeal : xxxxx | applies (and refreshes) a stack Zeal for 2 + 0.5L seconds, up to 3 + L. each stack of Zeal gives 5 + 2L movement speed.
-- Arcana : xxxxx | deal 1 + 1.5L damage flat on-hit magic, but reduce damage attribute by 0.5 + L.
+- Overswing | let X = 5 + 7.5L; increases total attack damage by X percent, decreases total attack speed by 1-(100/(100 + X))
+- Zeal | applies (and refreshes) a stack Zeal for 2 + 0.5L seconds, up to 3 + L. each stack of Zeal gives 5 + 2L movement speed.
+- Arcana : x-xx- | deal 1 + 1.5L damage flat on-hit magic, but reduce damage attribute by 0.5 + L.
 - Momentum : -x-xx | sprint attacks increase your attack speed by 5 + 10L percent for 2 seconds (or until your next attack), and reduces the targets attack range by 5 + 10L percent for 1 + 0.2L seconds.
 
 ## class D (2)
