@@ -1,0 +1,52 @@
+{
+    "anvil_cost": 1,
+    "description": {
+      "translate": "enchantment.sixcombat.armor.protection",
+      "fallback": "Protection"
+    },
+    "effects": {
+      "minecraft:damage_protection": [
+        {
+          "effect": {
+            "type": "minecraft:add",
+            "value": {
+              "type": "minecraft:linear",
+              "base": 1.0,
+              "per_level_above_first": 0.5
+            }
+          },
+          "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "expected": false,
+                    "id": "sixcombat:bypasses_protection"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+        }
+      ]
+    },
+    "exclusive_set": "#sixcombat:armor/axis",
+    "max_cost": {
+      "base": 12,
+      "per_level_above_first": 10
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 10
+    },
+    "slots": [
+      "armor"
+    ],
+    "supported_items": "#sixcombat:enchantable/armor/protection",
+    "weight": 10
+  }

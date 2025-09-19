@@ -1,46 +1,27 @@
 {
     "anvil_cost": 1,
     "description": {
-      "translate": "enchantment.sixcombat.armor.protection"
+      "translate": "enchantment.sixcombat.armor.mobility",
+      "fallback": "Mobility"
     },
     "effects": {
-      "minecraft:damage_protection": [
-        {
-          "effect": {
-            "type": "minecraft:add",
-            "value": {
-              "type": "minecraft:linear",
-              "base": 1.0,
-              "per_level_above_first": 0.5
-            }
-          },
-          "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "tags": [
-                  {
-                    "expected": false,
-                    "id": "mparmor.ench:bypasses_protection"
-                  },
-                  {
-                    "expected": false,
-                    "id": "minecraft:bypasses_invulnerability"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-        }
-      ]
-    },
-    "exclusive_set": "#mparmor.ench:exclusive/alpha",
+    "minecraft:attributes": [
+      {
+        "id": "sixcombat:enchantment/armor/mobility",
+        "attribute": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.03,
+          "per_level_above_first": 0.015
+        },
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+    "exclusive_set": "#sixcombat:armor/axis",
     "max_cost": {
       "base": 12,
-      "per_level_above_first": 10
+      "per_level_above_first": 9
     },
     "max_level": 5,
     "min_cost": {
@@ -50,6 +31,6 @@
     "slots": [
       "armor"
     ],
-    "supported_items": "#minecraft:enchantable/armor",
-    "weight": 10
+    "supported_items": "#sixcombat:enchantable/armor/mobility",
+    "weight": 8
   }
