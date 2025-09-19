@@ -1,5 +1,7 @@
 {
     "values": [
-        
+        "sixcombat:ranged/dead_shot",
+        "sixcombat:ranged/echo_shot",
+        "sixcombat:ranged/spread_shot"
     ]
 }

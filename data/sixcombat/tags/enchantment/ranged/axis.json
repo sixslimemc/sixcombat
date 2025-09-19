@@ -1,5 +1,6 @@
 {
     "values": [
-        
+        "sixcombat:ranged/quickdraw",
+        "sixcombat:ranged/overdraw"
     ]
 }
