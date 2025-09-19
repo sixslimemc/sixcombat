@@ -1,5 +1,9 @@
 {
     "values": [
-        
+        "sixcombat:armor/fire_defy",
+        "sixcombat:armor/impact_defy",
+        "sixcombat:armor/projectile_defy",
+        "sixcombat:armor/blast_defy",
+        "sixcombat:armor/magic_defy"
     ]
 }
