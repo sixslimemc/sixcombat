@@ -21,6 +21,13 @@
         "sixcombat:ranged/echo_shot",
         "sixcombat:ranged/spread_shot",
         "sixcombat:ranged/quickdraw",
-        "sixcombat:ranged/overdraw"
+        "sixcombat:ranged/overdraw",
+        "sixcombat:armor/blast_defy",
+        "sixcombat:armor/impact_defy",
+        "sixcombat:armor/fire_defy",
+        "sixcombat:armor/projectile_defy",
+        "sixcombat:armor/magic_defy",
+        "sixcombat:armor/protection",
+        "sixcombat:armor/mobility"
     ]
 }
