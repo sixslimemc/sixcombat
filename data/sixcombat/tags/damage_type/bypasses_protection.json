@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:wither",
+        "minecraft:starve",
+        "#minecraft:bypasses_enchantments",
+        "#minecraft:bypasses_invulnerability"
+    ]
+}

@@ -16,6 +16,11 @@
         "sixcombat:melee/arthrobane",
         "sixcombat:melee/arcana",
         "sixcombat:melee/zeal",
-        "sixcombat:melee/overcharge"
+        "sixcombat:melee/overcharge",
+        "sixcombat:ranged/dead_shot",
+        "sixcombat:ranged/echo_shot",
+        "sixcombat:ranged/spread_shot",
+        "sixcombat:ranged/quickdraw",
+        "sixcombat:ranged/overdraw"
     ]
 }
