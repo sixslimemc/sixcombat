@@ -19,7 +19,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "#sixcombat:enchantments/sensitive_to_necrobane"
+						"type": "#sixcombat:sensitive_to_necrobane"
 					}
 				}
 			}
