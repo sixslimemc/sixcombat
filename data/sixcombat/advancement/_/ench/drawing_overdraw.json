@@ -4,9 +4,7 @@
 			"trigger": "minecraft:using_item",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:bow"
-					],
+					"items": "#sixcombat:enchantable/ranged/overdraw",
 					"predicates": {
 						"minecraft:enchantments": [
 							{

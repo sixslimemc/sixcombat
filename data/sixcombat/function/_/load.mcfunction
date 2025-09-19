@@ -7,6 +7,8 @@ scoreboard objectives add _sixcombat dummy
 
 scoreboard objectives add _sixcombat.overdraw_time dummy
 scoreboard objectives add _sixcombat.overdraw_level dummy
+scoreboard objectives add _sixcombat.overdraw_ench dummy
+scoreboard objectives add _sixcombat.overdraw_threshold dummy
 scoreboard objectives add _sixcombat.shoot_bow minecraft.used:minecraft.bow
 
 # constants:

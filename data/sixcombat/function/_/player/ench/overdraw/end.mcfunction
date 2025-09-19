@@ -2,3 +2,5 @@
 #--------------------
 # ../main
 #--------------------
+
+tag @s remove _sixcombat.overdrawing
