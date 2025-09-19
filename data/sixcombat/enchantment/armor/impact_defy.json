@@ -1,0 +1,46 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.impact_defy",
+		"fallback": "Impact Defy"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:knockback_resistance",
+				"id": "sixcombat:enchantment/armor/impact_defy",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.1,
+					"per_level_above_first": 0.075
+				},
+				"operation": "add_value"
+			},
+			{
+				"attribute": "minecraft:explosion_knockback_resistance",
+				"id": "sixcombat:enchantment/armor/impact_defy",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.1,
+					"per_level_above_first": 0.075
+				},
+				"operation": "add_value"
+			}
+		]
+	},
+	"exclusive_set": "#sixcombat:armor/attunement",
+	"max_cost": {
+		"base": 27,
+		"per_level_above_first": 14
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 9,
+		"per_level_above_first": 13
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/impact_defy",
+	"weight": 5
+}

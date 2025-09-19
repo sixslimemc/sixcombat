@@ -1,0 +1,64 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.fire_defy",
+		"fallback": "Fire Defy"
+	},
+	"effects": {
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 1
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"expected": true,
+										"id": "minecraft:is_fire"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		],
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:burning_time",
+				"id": "sixcombat:enchantment/armor/fire_defy",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": -0.1,
+					"per_level_above_first": -0.075
+				},
+				"operation": "add_value"
+			}
+		]
+	},
+	"exclusive_set": "#sixcombat:armor/attunement",
+	"max_cost": {
+		"base": 27,
+		"per_level_above_first": 13
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 9,
+		"per_level_above_first": 13
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/fire_defy",
+	"weight": 6
+}
