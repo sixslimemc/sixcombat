@@ -1,8 +1,8 @@
 {
 	"anvil_cost": 3,
 	"description": {
-		"translate": "enchantment.sixcombat.zeal",
-		"fallback": "Zeal"
+		"translate": "enchantment.sixcombat.momentum",
+		"fallback": "Momentum"
 	},
 	"effects": {
 		
@@ -20,7 +20,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee/zeal",
-	"primary_items": "#sixcombat:enchantable/melee/zeal",
+	"supported_items": "#sixcombat:enchantable/melee/momentum",
+	"primary_items": "#sixcombat:enchantable/melee/momentum",
 	"weight": 3
 }
