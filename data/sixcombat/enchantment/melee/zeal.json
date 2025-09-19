@@ -20,7 +20,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
-	"primary_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/zeal",
+	"primary_items": "#sixcombat:enchantable/melee/zeal",
 	"weight": 3
 }

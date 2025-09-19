@@ -8,7 +8,7 @@
 		"minecraft:attributes": [
 			{
 				"attribute": "minecraft:sweeping_damage_ratio",
-				"id": "sixcombat:enchantment/cleave",
+				"id": "sixcombat:enchantment/melee/cleave",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.25,
@@ -31,7 +31,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/specific/melee/cleave",
-	"primary_items": "#sixcombat:enchantable/specific/melee/cleave",
+	"supported_items": "#sixcombat:enchantable/melee/cleave",
+	"primary_items": "#sixcombat:enchantable/melee/cleave",
 	"weight": 4
 }

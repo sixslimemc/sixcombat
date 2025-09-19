@@ -14,17 +14,17 @@
 		"base": 1,
 		"per_level_above_first": 11
 	},
-	"primary_items": "#sixcombat:enchantable/melee",
+	"primary_items": "#sixcombat:enchantable/melee/quickness",
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/quickness",
 	"weight": 8,
 	"effects": {
 		"minecraft:attributes": [
 			{
 				"attribute": "minecraft:attack_speed",
-				"id": "sixcombat:enchantment/quickness",
+				"id": "sixcombat:enchantment/melee/quickness",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.03,

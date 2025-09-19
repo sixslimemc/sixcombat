@@ -20,7 +20,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
-	"primary_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/shred",
+	"primary_items": "#sixcombat:enchantable/melee/shred",
 	"weight": 5
 }

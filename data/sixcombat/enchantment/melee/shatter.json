@@ -20,7 +20,7 @@
 		"minecraft:attributes": [
 			{
 				"attribute": "minecraft:attack_damage",
-				"id": "sixcombat:enchantment/shatter",
+				"id": "sixcombat:enchantment/melee/shatter",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 2,
@@ -43,7 +43,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
-	"primary_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/shatter",
+	"primary_items": "#sixcombat:enchantable/melee/shatter",
 	"weight": 5
 }

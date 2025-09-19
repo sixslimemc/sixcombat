@@ -49,7 +49,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
-	"primary_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/overcharge",
+	"primary_items": "#sixcombat:enchantable/melee/overcharge",
 	"weight": 3
 }

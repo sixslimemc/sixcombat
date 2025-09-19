@@ -35,10 +35,10 @@
 		"base": 20,
 		"per_level_above_first": 20
 	},
-	"primary_items": "#sixcombat:enchantable/melee",
+	"primary_items": "#sixcombat:enchantable/melee/faunbane",
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/faunbane",
 	"weight": 2
 }
