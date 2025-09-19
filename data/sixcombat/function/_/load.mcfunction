@@ -5,6 +5,10 @@
 
 scoreboard objectives add _sixcombat dummy
 
+scoreboard objectives add _sixcombat.overdraw_time dummy
+scoreboard objectives add _sixcombat.overdraw_level dummy
+scoreboard objectives add _sixcombat.shoot_bow minecraft.used:minecraft.bow
+
 # constants:
 scoreboard players set *4 _sixcombat 4
 scoreboard players set *2 _sixcombat 2

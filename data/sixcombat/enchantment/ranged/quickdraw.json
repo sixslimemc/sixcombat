@@ -5,22 +5,51 @@
 		"fallback": "Quickdraw"
 	},
 	"effects": {
-		
+		"minecraft:crossbow_charge_time": {
+			"type": "minecraft:add",
+			"value": {
+				"type": "minecraft:linear",
+				"base": -0.14,
+				"per_level_above_first": -0.14
+			}
+		},
+		"minecraft:crossbow_charging_sounds": [
+			{
+				"end": "minecraft:item.crossbow.loading_end",
+				"start": "minecraft:item.crossbow.quick_charge_1"
+			},
+			{
+				"end": "minecraft:item.crossbow.loading_end",
+				"start": "minecraft:item.crossbow.quick_charge_1"
+			},
+			{
+				"end": "minecraft:item.crossbow.loading_end",
+				"start": "minecraft:item.crossbow.quick_charge_2"
+			},
+			{
+				"end": "minecraft:item.crossbow.loading_end",
+				"start": "minecraft:item.crossbow.quick_charge_2"
+			},
+			{
+				"end": "minecraft:item.crossbow.loading_end",
+				"start": "minecraft:item.crossbow.quick_charge_3"
+			}
+		]
 	},
 	"exclusive_set": "#sixcombat:ranged/axis",
-	"max_level": 1,
+	"max_level": 5,
 	"max_cost": {
-		"base": 100,
-		"per_level_above_first": 100
+		"base": 13,
+		"per_level_above_first": 13
 	},
 	"min_cost": {
-		"base": 100,
-		"per_level_above_first": 100
+		"base": 1,
+		"per_level_above_first": 11
 	},
 	"slots": [
 		"mainhand"
 	],
 	"supported_items": "#sixcombat:enchantable/ranged/quickdraw",
 	"primary_items": "#sixcombat:enchantable/ranged/quickdraw",
-	"weight": 5
+	"weight": 10
 }

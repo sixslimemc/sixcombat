@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"o": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:bow"
+					],
+					"predicates": {
+						"minecraft:enchantments": [
+							{
+								"enchantments": "sixcombat:ranged/overdraw",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sixcombat:_/adv/ench/drawing_overdraw"
+	}
+}

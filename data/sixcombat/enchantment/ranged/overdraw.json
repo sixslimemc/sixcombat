@@ -5,22 +5,28 @@
 		"fallback": "Overdraw"
 	},
 	"effects": {
-		
+		"minecraft:projectile_spawned": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "sixcombat:_/player/ench/overdraw/arrow"
+				}
+			}
+		]
 	},
 	"exclusive_set": "#sixcombat:ranged/axis",
-	"max_level": 1,
+	"max_level": 5,
 	"max_cost": {
-		"base": 100,
-		"per_level_above_first": 100
+		"base": 13,
+		"per_level_above_first": 13
 	},
 	"min_cost": {
-		"base": 100,
-		"per_level_above_first": 100
+		"base": 1,
+		"per_level_above_first": 11
 	},
 	"slots": [
-		"mainhand"
+		"hand"
 	],
 	"supported_items": "#sixcombat:enchantable/ranged/overdraw",
-	"primary_items": "#sixcombat:enchantable/ranged/overdraw",
-	"weight": 5
+	"weight": 10
 }
