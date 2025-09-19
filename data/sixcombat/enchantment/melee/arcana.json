@@ -41,7 +41,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee",
-	"primary_items": "#sixcombat:enchantable/melee",
+	"supported_items": "#sixcombat:enchantable/melee/arcana",
+	"primary_items": "#sixcombat:enchantable/melee/arcana",
 	"weight": 3
 }
