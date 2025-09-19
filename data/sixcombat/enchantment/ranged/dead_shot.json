@@ -1,0 +1,26 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.sixcombat.dead_shot",
+		"fallback": "Dead Shot"
+	},
+	"effects": {
+		
+	},
+	"exclusive_set": "#sixcombat:ranged/inflection",
+	"max_level": 1,
+	"max_cost": {
+		"base": 100,
+		"per_level_above_first": 100
+	},
+	"min_cost": {
+		"base": 100,
+		"per_level_above_first": 100
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#sixcombat:enchantable/ranged/dead_shot",
+	"primary_items": "#sixcombat:enchantable/ranged/dead_shot",
+	"weight": 5
+}

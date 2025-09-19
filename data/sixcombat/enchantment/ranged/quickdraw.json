@@ -1,0 +1,26 @@
+{
+	"anvil_cost": 2,
+	"description": {
+		"translate": "enchantment.sixcombat.quickdraw",
+		"fallback": "Quickdraw"
+	},
+	"effects": {
+		
+	},
+	"exclusive_set": "#sixcombat:ranged/axis",
+	"max_level": 1,
+	"max_cost": {
+		"base": 100,
+		"per_level_above_first": 100
+	},
+	"min_cost": {
+		"base": 100,
+		"per_level_above_first": 100
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#sixcombat:enchantable/ranged/quickdraw",
+	"primary_items": "#sixcombat:enchantable/ranged/quickdraw",
+	"weight": 5
+}
