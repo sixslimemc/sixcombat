@@ -3,6 +3,8 @@
 # @ench : ranged/overdraw
 #--------------------
 
+execute store result score @s sixcombat.overdrawn_arrow on origin run scoreboard players get @s _sixcombat.overdraw_level
+
 # set {..add_vec}
 execute on origin run function sixcombat:_/player/ench/overdraw/arrow/shooter
 
