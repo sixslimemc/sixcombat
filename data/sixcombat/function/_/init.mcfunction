@@ -4,6 +4,8 @@
 #--------------------
 # called when first installed.
 
+function sixcombat:_/cffect/init_definitions
+
 data modify storage sixcombat:_ x.base_weapon set value {knockback:0f, range_modifier:0f, disable_block_seconds:0f, additional_modifiers:[]}
 data modify storage sixcombat:_ x.base_armor set value {armor:0f, armor_toughness:0f, movement_speed_modifier:0f, knockback_resist:0f, additional_modifiers:[]}
 data modify storage sixcombat:_ x.base_shield set value {movement_speed_modifier:0f, additional_modifiers:[], block:{delay_ticks:0, disable_cooldown_scale:1f, max_angle:90f, sound:false, damage_reduction:{base:1f, percent:0f}, blocking_modifiers:{attack_speed:-0.2f, additional:[], persist_ticks:20}, sound:{on_block:"minecraft:item.shield.block", on_disable:"minecraft:item.shield.break"}}}
