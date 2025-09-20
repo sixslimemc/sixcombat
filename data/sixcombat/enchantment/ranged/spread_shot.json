@@ -7,6 +7,18 @@
 	"effects": {
 		"minecraft:projectile_count": [
 			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type_specific": {
+							"type": "minecraft:player",
+							"input": {
+								"sneak": false
+							}
+						}
+					}
+				},
 				"effect": {
 					"type": "minecraft:add",
 					"value": {
@@ -23,20 +35,8 @@
 					"type": "minecraft:add",
 					"value": {
 						"type": "minecraft:linear",
-						"base": 8,
+						"base": 6,
 						"per_level_above_first": 5
-					}
-				}
-			}
-		],
-		"minecraft:ammo_use": [
-			{
-				"effect": {
-					"type": "minecraft:add",
-					"value": {
-						"type": "minecraft:linear",
-						"base": 2,
-						"per_level_above_first": 2
 					}
 				}
 			}
