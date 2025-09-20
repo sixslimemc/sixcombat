@@ -3,3 +3,4 @@
 # @ench : armor/hardening
 #--------------------
 
+tag @s add _sixcombat.hardening_trigger

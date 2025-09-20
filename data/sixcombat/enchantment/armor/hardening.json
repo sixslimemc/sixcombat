@@ -27,7 +27,7 @@
 					"predicate": {
 						"tags": [
 							{
-								"id": "minecraft:bypasses_armor",
+								"id": "sixcombat:bypasses_hardening",
 								"expected": false
 							}
 						]
@@ -60,7 +60,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -91,7 +91,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -122,7 +122,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -153,7 +153,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -190,7 +190,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -227,7 +227,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -265,7 +265,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -303,7 +303,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
@@ -342,7 +342,7 @@
 							"predicate": {
 								"tags": [
 									{
-										"id": "minecraft:bypasses_armor",
+										"id": "sixcombat:bypasses_hardening",
 										"expected": false
 									}
 								]
