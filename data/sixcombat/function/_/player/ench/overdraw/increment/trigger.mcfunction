@@ -9,8 +9,9 @@ execute if score @s _sixcombat.overdraw_level matches 1.. run scoreboard players
 
 
 scoreboard players add @s _sixcombat.overdraw_level 1
-scoreboard players set @s _sixcombat.overdraw_time 1
+scoreboard players set @s _sixcombat.overdraw_time 0
 
-# DEBUG:
-tellraw @a ["overdraw: ", {'score':{'name':'@s', 'objective':'_sixcombat.overdraw_level'}}]
-playsound block.note_block.hat block @a ~ ~ ~ 1 2
+scoreboard players operation *x _sixcombat = @s _sixcombat.overdraw_level
+scoreboard players add *x _sixcombat 20
+execute store result storage sixcombat:_ x.pitch float 0.065 run scoreboard players get *x _sixcombat
+function sixcombat:_/player/ench/overdraw/increment/sound with storage sixcombat:_ x
