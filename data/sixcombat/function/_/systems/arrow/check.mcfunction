@@ -5,7 +5,11 @@
 tag @s add _sixcombat.checked
 
 execute on origin unless entity @s[type=player] run return 0
+
 data merge entity @s {crit:false}
+
+# echo shot:
+execute if score @s _sixcombat.echo_shot_starter matches 1.. run function sixcombat:_/player/ench/echo_shot/projectile/arrow/on_check
 
 data modify storage sixcombat:_ var.arrow.data set from entity @s
 

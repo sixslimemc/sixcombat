@@ -12,6 +12,6 @@ execute unless score *x _sixcombat matches 1.. run return 0
 say hi
 data modify storage sixcombat:_ var.spread_shot.ammo_entry set from storage six:out get_next_ammo.result[0]
 data modify storage sixcombat:_ var.spread_shot.ammo_entry.item.count set value 1
-function sixcombat:_/player/ench/spread_shot/projectile/decrement_ammo with storage sixcombat:_ var.spread_shot.ammo_entry
+function sixcombat:_/player/util/decriment_ammo with storage sixcombat:_ var.spread_shot.ammo_entry
 
 return 1
