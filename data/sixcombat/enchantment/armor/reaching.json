@@ -1,28 +1,28 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "enchantment.sixcombat.armor.safe_falling",
-		"fallback": "Safe Falling"
+		"translate": "enchantment.sixcombat.armor.reaching",
+		"fallback": "Reaching"
 	},
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"attribute": "minecraft:safe_fall_distance",
-				"id": "sixcombat:enchantment/armor/safe_falling",
+				"attribute": "minecraft:block_interaction_range",
+				"id": "sixcombat:enchantment/armor/reaching",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": 0.67,
-					"per_level_above_first": 0.5
+					"base": 0.15,
+					"per_level_above_first": 0.1
 				},
 				"operation": "add_multiplied_base"
 			},
 			{
-				"attribute": "minecraft:fall_damage_multiplier",
-				"id": "sixcombat:enchantment/armor/safe_falling",
+				"attribute": "minecraft:entity_interaction_range",
+				"id": "sixcombat:enchantment/armor/reaching",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": -0.1,
-					"per_level_above_first": -0.1
+					"base": 0.15,
+					"per_level_above_first": 0.1
 				},
 				"operation": "add_multiplied_base"
 			}
@@ -41,6 +41,6 @@
 	"slots": [
 		"armor"
 	],
-	"supported_items": "#sixcombat:enchantable/armor/safe_falling",
+	"supported_items": "#sixcombat:enchantable/armor/reaching",
 	"weight": 3
 }
