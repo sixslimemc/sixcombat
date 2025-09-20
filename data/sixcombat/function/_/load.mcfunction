@@ -6,6 +6,7 @@
 scoreboard objectives add _sixcombat dummy
 
 scoreboard objectives add sixcombat.overdrawn_arrow dummy
+scoreboard objectives add sixcombat.hardening_stacks dummy
 
 scoreboard objectives add _sixcombat.overdraw_time dummy
 scoreboard objectives add _sixcombat.overdraw_level dummy

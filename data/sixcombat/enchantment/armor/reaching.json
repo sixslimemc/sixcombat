@@ -1,5 +1,5 @@
 {
-	"anvil_cost": 1,
+	"anvil_cost": 4,
 	"description": {
 		"translate": "enchantment.sixcombat.armor.reaching",
 		"fallback": "Reaching"
