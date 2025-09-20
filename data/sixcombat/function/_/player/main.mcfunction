@@ -12,3 +12,6 @@ advancement revoke @s only sixcombat:_/ench/drawing_overdraw
 # hardening
 execute if entity @s[tag=_sixcombat.hardening_trigger] run function sixcombat:_/player/ench/hardening/increment
 execute if score @s sixcombat.hardening_timer matches 0.. run function sixcombat:_/player/ench/hardening/tick
+
+# fleeting
+execute if score @s _sixcombat.fleeting_trigger matches 1.. run function sixcombat:_/player/ench/fleeting/on_detect
