@@ -4,6 +4,8 @@
 #--------------------
 
 execute if items entity @s weapon.mainhand #sixcombat:enchantable/ranged/echo_shot run data modify storage sixcombat:_ var.echo_shot.item set from entity @s SelectedItem
-execute unless data storage sixcombat:_ var.echo_shot.item run data modify storage sixcombat:_ xvar.echo_shot.item set from entity @s equipment.offhand
+execute unless data storage sixcombat:_ var.echo_shot.item run data modify storage sixcombat:_ var.echo_shot.item set from entity @s equipment.offhand
+
+execute store result score *echo_shot.level _sixcombat run data get storage sixcombat:_ var.echo_shot.item.components."minecraft:enchantments"."sixcombat:ranged/echo_shot"
 
 #execute if entity @s[type=firework_rocket] run return run function sixcombat:_/player/ench/spread_shot/projectile/firework/main
