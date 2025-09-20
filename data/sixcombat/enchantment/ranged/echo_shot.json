@@ -34,12 +34,12 @@
 	"exclusive_set": "#sixcombat:ranged/inflection",
 	"max_level": 2,
 	"max_cost": {
-		"base": 28,
-		"per_level_above_first": 12
+		"base": 35,
+		"per_level_above_first": 15
 	},
 	"min_cost": {
-		"base": 10,
-		"per_level_above_first": 13
+		"base": 15,
+		"per_level_above_first": 17
 	},
 	"slots": [
 		"mainhand"
