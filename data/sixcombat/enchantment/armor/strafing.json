@@ -1,0 +1,69 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.strafing",
+		"fallback": "Strafing"
+	},
+	"effects": {
+		"minecraft:location_changed": [
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"flags": {
+									"is_sprinting": false
+								}
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:attribute",
+							"attribute": "minecraft:movement_speed",
+							"id": "sixcombat:enchantment/armor/strafing",
+							"amount": {
+								"type": "minecraft:linear",
+								"base": 0.15,
+								"per_level_above_first": 0.1
+							},
+							"operation": "add_multiplied_base"
+						},
+						{
+							"type": "minecraft:attribute",
+							"attribute": "minecraft:sneaking_speed",
+							"id": "sixcombat:enchantment/armor/strafing",
+							"amount": {
+								"type": "minecraft:linear",
+								"base": 0.4,
+								"per_level_above_first": 0.26
+							},
+							"operation": "add_multiplied_base"
+						}
+					]
+				}
+			}
+		]
+	},
+	"exclusive_set": "#sixcombat:armor/specialization",
+	"max_level": 2,
+	"max_cost": {
+		"base": 38,
+		"per_level_above_first": 21
+	},
+	"min_cost": {
+		"base": 17,
+		"per_level_above_first": 21
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/strafing",
+	"weight": 3
+}
