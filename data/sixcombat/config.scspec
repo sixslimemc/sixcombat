@@ -1,5 +1,4 @@
 
-TODO: populate
 {
     melee[]: MeleeConfig
     #
@@ -19,15 +18,22 @@ TODO: populate
         fallback: ShieldType
     }
 
-    airborne_modifiers[]: AttributeModifier
-    #
-    = [
-        {
-            type: "minecraft:attack_speed"
-            amount: -0.45f
-            operation: "add_multiplied_total"
-        }
-    ]
+    
+    systems: {
+        disable_arrow_crit: bool
+        #
+        = true
+
+        airborne_modifiers[]: AttributeModifier
+        #
+        = [
+            {
+                type: "minecraft:attack_speed"
+                amount: -0.45f
+                operation: "add_multiplied_total"
+            }
+        ]
+    }
 }
 
 AttributeModifier := {

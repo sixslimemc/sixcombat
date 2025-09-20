@@ -29,7 +29,11 @@ execute if data storage sixcombat:_ var.cache.shield_types[0] run function sixco
 # shield fallback:
 data modify storage sixcombat:_ cache.shield_fallback set from storage sixcombat:config shield.fallback
 
+# [ systems ]
 # airborne_attributes:
-data modify storage sixcombat:_ cache.airborne_modifiers set from storage sixcombat:config airborne_modifiers
+data modify storage sixcombat:_ cache.airborne_modifiers set from storage sixcombat:config systems.airborne_modifiers
+
+# arrow crit
+execute store result score *cache.disable_arrow_crit _sixcombat run data get storage sixcombat:config systems.disable_arrow_crit
 
 data remove storage sixcombat:_ var.cache
