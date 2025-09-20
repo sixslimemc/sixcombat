@@ -6,6 +6,3 @@ tag @s remove _sixcombat.hardening_trigger
 
 scoreboard players add @s sixcombat.hardening_stacks 1
 scoreboard players set @s sixcombat.hardening_timer 40
-
-# DEBUG:
-tellraw @a ["hardening: ", {'score':{'name':'@s', 'objective':'sixcombat.hardening_stacks'}}]

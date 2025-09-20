@@ -3,4 +3,4 @@
 # ./trigger
 #--------------------
 
-$playsound minecraft:item.crossbow.loading_start player @s ~ ~ ~ 0.63 $(pitch)
+$playsound minecraft:item.crossbow.loading_start player @s ~ ~ ~ 0.8 $(pitch)
