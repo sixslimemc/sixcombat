@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#sixcombat:soft_magic",
+        "minecraft:wither",
+        "minecraft:on_fire",
+        "minecraft:in_fire",
+        "minecraft:hot_floor",
+        "minecraft:fall"
+    ]
+}
