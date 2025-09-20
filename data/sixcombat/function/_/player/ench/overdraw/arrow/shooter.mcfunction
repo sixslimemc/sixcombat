@@ -7,7 +7,7 @@ execute store result storage six:in cast.magnitude float 0.42 run scoreboard pla
 data modify storage six:in cast.rotation set from entity @s Rotation
 function six:vector/cast
 
-data modify storage sixcombat:_ var.arrow.add_vec set from storage six:out cast.result
+data modify storage sixcombat:_ var.overdraw.add_vec set from storage six:out cast.result
 
 # sounds
 execute unless score @s _sixcombat.overdraw_level matches 1.. run return 0

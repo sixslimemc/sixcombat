@@ -8,15 +8,10 @@
 		"minecraft:projectile_count": [
 			{
 				"requirements": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"type_specific": {
-							"type": "minecraft:player",
-							"input": {
-								"sneak": false
-							}
-						}
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:reference",
+						"name": "sixcombat:player/supress_input_active"
 					}
 				},
 				"effect": {
@@ -38,6 +33,41 @@
 						"base": 6,
 						"per_level_above_first": 5
 					}
+				}
+			}
+		],
+		"minecraft:projectile_spawned": [
+			{
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:reference",
+						"name": "sixcombat:player/supress_input_active"
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "sixcombat:_/player/ench/spread_shot/projectile/trigger"
+						}
+					]
+				}
+			}
+		],
+		"minecraft:ammo_use": [
+			{
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:reference",
+						"name": "sixcombat:player/supress_input_active"
+					}
+				},
+				"effect": {
+					"type": "minecraft:set",
+					"value": 0
 				}
 			}
 		]
