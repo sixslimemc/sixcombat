@@ -1,8 +1,8 @@
 {
 	"anvil_cost": 4,
 	"description": {
-		"translate": "enchantment.sixcombat.armor.reaching",
-		"fallback": "Reaching"
+		"translate": "enchantment.sixcombat.armor.hardening",
+		"fallback": "Hardening"
 	},
 	"exclusive_set": "#sixcombat:armor/specialization",
 	"max_level": 2,
@@ -17,7 +17,7 @@
 	"slots": [
 		"armor"
 	],
-	"supported_items": "#sixcombat:enchantable/armor/reaching",
+	"supported_items": "#sixcombat:enchantable/armor/hardening",
 	"weight": 3,
 	"effects": {
 		"minecraft:post_attack": [
@@ -71,6 +71,296 @@
 				"effect": {
 					"type": "minecraft:add",
 					"value": 0.75
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 2
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": 0.75
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 3
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": 0.75
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 4
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0
+						],
+						"fallback": 0.75
+					}
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 5
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0
+						],
+						"fallback": 0.75
+					}
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 6
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0,
+							0
+						],
+						"fallback": 0.75
+					}
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 7
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0,
+							0
+						],
+						"fallback": 0.75
+					}
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 8
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0,
+							0,
+							0
+						],
+						"fallback": 0.75
+					}
+				}
+			},
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"sixcombat.hardening_stacks": {
+									"min": 9
+								}
+							}
+						},
+						{
+							"condition": "minecraft:damage_source_properties",
+							"predicate": {
+								"tags": [
+									{
+										"id": "minecraft:bypasses_armor",
+										"expected": false
+									}
+								]
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:lookup",
+						"values": [
+							0,
+							0,
+							0
+						],
+						"fallback": 0.75
+					}
 				}
 			}
 		]
