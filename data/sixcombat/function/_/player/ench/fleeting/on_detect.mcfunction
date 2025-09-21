@@ -28,7 +28,7 @@ data modify storage cffect:in give set value {id:"sixcombat.enchantment.armor.fl
 scoreboard players operation *x _sixcombat = *fleeting.level _sixcombat
 scoreboard players set *y _sixcombat 3
 scoreboard players operation *x _sixcombat *= *y _sixcombat
-scoreboard players add *x _sixcombat 9
+scoreboard players add *x _sixcombat 10
 execute store result storage cffect:in give.data.segment_duration int 1 run scoreboard players get *x _sixcombat
 data modify storage cffect:in give.duration set from storage cffect:in give.data.segment_duration
 
