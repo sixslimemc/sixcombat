@@ -81,7 +81,7 @@
 - Strafing : --xx | increase movement speed when not sprinting by 5 + 7.5L percent, increase sneaking speed by 0.05 + 0.1L
 - Hardening : xx-- | taking damage adds/refreshes a stack for 2 seconds, up to 1 + 2L. each stack grants protection 0.75.
 - Accelerating : -xx- | gain a stack for every 1.6 - 0.1L seconds spent spriting, lost when stopping or attacking, up to 2 + 3L. each stack grants 5 percent movement speed and 0.3 attack knockback
-- Fleeting : x--x | gain 10 + 10L movement speed for 0.8 + 0.2L seconds decaying when taking armor-blocking damage, 
+- Fleeting : x--x | gain 20 + 15L movement speed for 0.9 + 0.3L seconds decaying when taking armor-blocking damage, 
 
 ## class D (1)
 - Heart | increases max health by 2L

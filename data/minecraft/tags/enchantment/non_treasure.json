@@ -16,18 +16,23 @@
         "sixcombat:melee/arthrobane",
         "sixcombat:melee/arcana",
         "sixcombat:melee/zeal",
-        "sixcombat:melee/overcharge",
+        "sixcombat:melee/overswing",
+        "sixcombat:ranged/quickdraw",
+        "sixcombat:ranged/overdraw",
         "sixcombat:ranged/dead_shot",
         "sixcombat:ranged/echo_shot",
         "sixcombat:ranged/spread_shot",
-        "sixcombat:ranged/quickdraw",
-        "sixcombat:ranged/overdraw",
+        "sixcombat:armor/protection",
+        "sixcombat:armor/mobility",
         "sixcombat:armor/blast_defy",
         "sixcombat:armor/impact_defy",
         "sixcombat:armor/fire_defy",
         "sixcombat:armor/projectile_defy",
         "sixcombat:armor/magic_defy",
-        "sixcombat:armor/protection",
-        "sixcombat:armor/mobility"
+        "sixcombat:armor/fleeting",
+        "sixcombat:armor/safe_falling",
+        "sixcombat:armor/strafing",
+        "sixcombat:armor/reaching",
+        "sixcombat:armor/hardening"
     ]
 }

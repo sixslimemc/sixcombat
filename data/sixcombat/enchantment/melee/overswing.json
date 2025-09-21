@@ -1,14 +1,14 @@
 {
 	"anvil_cost": 3,
 	"description": {
-		"translate": "enchantment.sixcombat.overcharge",
-		"fallback": "Overcharge"
+		"translate": "enchantment.sixcombat.overswing",
+		"fallback": "Overswing"
 	},
 	"effects": {
 		"minecraft:attributes": [
 			{
 				"attribute": "minecraft:attack_damage",
-				"id": "sixcombat:enchantment/overcharge",
+				"id": "sixcombat:enchantment/overswing",
 				"amount": {
 					"type": "minecraft:linear",
 					"base": 0.125,
@@ -18,7 +18,7 @@
 			},
 			{
 				"attribute": "minecraft:attack_speed",
-				"id": "sixcombat:enchantment/overcharge",
+				"id": "sixcombat:enchantment/overswing",
 				"amount": {
 					"type": "minecraft:fraction",
 					"numerator": {
@@ -49,7 +49,7 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#sixcombat:enchantable/melee/overcharge",
-	"primary_items": "#sixcombat:enchantable/melee/overcharge",
+	"supported_items": "#sixcombat:enchantable/melee/overswing",
+	"primary_items": "#sixcombat:enchantable/melee/overswing",
 	"weight": 3
 }
