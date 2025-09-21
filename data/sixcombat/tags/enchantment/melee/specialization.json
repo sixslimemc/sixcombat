@@ -2,6 +2,7 @@
     "values": [
         "sixcombat:melee/overswing",
         "sixcombat:melee/arcana",
+        "sixcombat:melee/momentum",
         "sixcombat:melee/zeal"
     ]
 }

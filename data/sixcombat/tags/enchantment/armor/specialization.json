@@ -1,5 +1,9 @@
 {
     "values": [
-        
+        "sixcombat:armor/fleeting",
+        "sixcombat:armor/strafing",
+        "sixcombat:armor/safe_falling",
+        "sixcombat:armor/reaching",
+        "sixcombat:armor/hardening"
     ]
 }

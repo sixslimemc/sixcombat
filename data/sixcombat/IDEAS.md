@@ -17,7 +17,7 @@
 ## class C (3)
 - Overswing | let X = 5 + 7.5L; increases total attack damage by X percent, decreases total attack speed by 1-(100/(100 + X))
 - Zeal | applies (and refreshes) a stack Zeal for 2 + 0.5L seconds, up to 3 + L. each stack of Zeal gives 5 + 2L movement speed.
-- Arcana : x-xx- | deal 1 + 1.5L damage flat on-hit magic, but reduce damage attribute by 0.5 + L.
+- Arcana : x-xx- | deal 0.5 + 1.5L damage flat on-hit magic, but reduce damage attribute by 0.5 + L.
 - Momentum : -x-xx | sprint attacks increase your attack speed by 5 + 10L percent for 2 seconds (or until your next attack), and reduces the targets attack range by 5 + 10L percent for 1 + 0.2L seconds.
 
 ## class D (2)

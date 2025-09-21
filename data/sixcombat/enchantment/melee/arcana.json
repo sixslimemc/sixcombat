@@ -11,8 +11,8 @@
 				"id": "sixcombat:enchantment/arcana",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": -0.5,
-					"per_level_above_first": 1
+					"base": -1.5,
+					"per_level_above_first": -1
 				},
 				"operation": "add_value"
 			}
@@ -21,10 +21,26 @@
 			{
 				"effect": {
 					"type": "minecraft:run_function",
-					"function": "sixcombat:ench/arcana/on_victim"
+					"function": "sixcombat:_/player/ench/arcana/trigger_attacker"
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
+			},
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "sixcombat:_/player/ench/arcana/trigger_victim"
 				},
 				"enchanted": "attacker",
 				"affected": "victim"
+			},
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "sixcombat:_/player/ench/arcana/trigger_attacker_post"
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
 			}
 		]
 	},
