@@ -223,7 +223,7 @@ data modify storage sixcombat:config armor append from storage sixcombat:_ x.bas
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:leather_boots", slot:'feet'}
 data modify storage sixcombat:config armor[-1] merge value {armor:1.0}
 
-# copper: 11 | 3 | -0.1 | 0
+# copper: 11 | 2.5 | -0.1 | 0
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:copper_helmet", slot:'head'}
 data modify storage sixcombat:config armor[-1] merge value {armor:2.0, armor_toughness:0.5, movement_speed_modifier:-0.021}

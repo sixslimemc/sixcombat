@@ -5,16 +5,16 @@
 		"fallback": "Arcana"
 	},
 	"effects": {
-		"minecraft:attributes": [
+		"minecraft:damage": [
 			{
-				"attribute": "minecraft:attack_damage",
-				"id": "sixcombat:enchantment/arcana",
-				"amount": {
-					"type": "minecraft:linear",
-					"base": -1.5,
-					"per_level_above_first": -1
-				},
-				"operation": "add_value"
+				"effect": {
+					"type": "minecraft:add",
+					"value": {
+						"type": "minecraft:linear",
+						"base": -1.5,
+						"per_level_above_first": -1
+					}
+				}
 			}
 		],
 		"minecraft:post_attack": [
