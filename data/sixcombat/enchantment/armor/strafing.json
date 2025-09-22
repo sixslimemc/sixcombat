@@ -41,8 +41,8 @@
 							"id": "sixcombat:enchantment/armor/strafing",
 							"amount": {
 								"type": "minecraft:linear",
-								"base": 0.4,
-								"per_level_above_first": 0.26
+								"base": 0.3,
+								"per_level_above_first": 0.2
 							},
 							"operation": "add_multiplied_base"
 						}

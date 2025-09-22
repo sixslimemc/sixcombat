@@ -27,8 +27,8 @@
 				"id": "sixcombat:enchantment/melee/quickness",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": 0.12,
-					"per_level_above_first": 0.12
+					"base": 0.11,
+					"per_level_above_first": 0.11
 				},
 				"operation": "add_multiplied_total"
 			}
