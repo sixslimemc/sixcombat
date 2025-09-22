@@ -1,4 +1,8 @@
 
+# DEV/TODO
+- fuck fuck fuck fuck theres a fucking bug that causes cffects to not end if multiple are going off at the same time.
+- seems to be a problem with cffect:give, as when 2 cffects are applied near at the same time, only 1 of them gets added to {cffect:data -> entities.active}
+
 # melee enchantments
 ~ Sword | Axe | Hoe | Shovel | Pickaxe - xxxxx
 ## class A (5) 
@@ -17,8 +21,8 @@
 ## class C (3)
 - Overswing | let X = 5 + 7.5L; increases total attack damage by X percent, decreases total attack speed by 1-(100/(100 + X))
 - Zeal | applies (and refreshes) a stack Zeal for 2 + 0.5L seconds, up to 3 + L. each stack of Zeal gives 5 + 2L movement speed.
-- Arcana : x-xx- | deal 0.5 + 1.5L damage flat on-hit magic, but reduce damage attribute by 0.5 + L.
-- Momentum : -x-xx | sprint attacks increase your attack speed by 5 + 10L percent for 2 seconds (or until your next attack), and reduces the targets attack range by 5 + 10L percent for 1 + 0.2L seconds.
+- Arcana | deal 0.5 + 1.5L damage flat on-hit magic, but reduce on-hit damage by 0.5 + L.
+- Momentum | sprint attacks increase your attack speed by 5 + 10L percent for 2 seconds (or until your next attack), and reduces the targets attack range by 5 + 10L percent for 1 + 0.2L seconds.
 
 ## class D (2)
 - necrobane : xxxxx | increases damage against undead by 2.5L

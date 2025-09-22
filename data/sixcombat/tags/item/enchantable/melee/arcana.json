@@ -1,7 +1,5 @@
 {
     "values": [
-        "#sixcombat:enchantable/melee/class/sword",
-        "#sixcombat:enchantable/melee/class/hoe",
-        "#sixcombat:enchantable/melee/class/shovel"
+        "#sixcombat:enchantable/melee/class/general"
     ]
 }

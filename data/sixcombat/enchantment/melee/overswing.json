@@ -20,17 +20,9 @@
 				"attribute": "minecraft:attack_speed",
 				"id": "sixcombat:enchantment/overswing",
 				"amount": {
-					"type": "minecraft:fraction",
-					"numerator": {
-						"type": "minecraft:linear",
-						"base": -0.125,
-						"per_level_above_first": -0.075
-					},
-					"denominator": {
-						"type": "minecraft:linear",
-						"base": 1.125,
-						"per_level_above_first": 0.075
-					}
+					"type": "minecraft:linear",
+					"base": -0.125,
+					"per_level_above_first": -0.075
 				},
 				"operation": "add_multiplied_total"
 			}

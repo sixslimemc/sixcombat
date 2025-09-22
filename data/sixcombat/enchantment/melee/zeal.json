@@ -5,7 +5,16 @@
 		"fallback": "Zeal"
 	},
 	"effects": {
-		
+		"minecraft:post_attack": [
+			{
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "sixcombat:_/player/ench/zeal/trigger"
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
+			}
+		]
 	},
 	"exclusive_set": "#sixcombat:melee/specialization",
 	"max_level": 3,
