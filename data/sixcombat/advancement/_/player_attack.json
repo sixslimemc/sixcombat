@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"damage": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						],
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "sixcombat:_/adv/player_attack"
+	}
+}

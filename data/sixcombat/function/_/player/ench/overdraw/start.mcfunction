@@ -5,8 +5,8 @@
 
 scoreboard players set @s _sixcombat.overdraw_level 0
 scoreboard players set @s _sixcombat.overdraw_time 0
-# will subtract 22 upon first increment
-scoreboard players set @s _sixcombat.overdraw_threshold 32
+# will subtract 18 upon first increment
+scoreboard players set @s _sixcombat.overdraw_threshold 29
 tag @s add _sixcombat.overdrawing
 
 execute if items entity @s weapon.mainhand #sixcombat:enchantable/ranged/overdraw run data modify storage sixcombat:_ var.overdraw.item set from entity @s SelectedItem

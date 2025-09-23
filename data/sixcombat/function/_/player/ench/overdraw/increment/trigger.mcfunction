@@ -3,7 +3,7 @@
 # ../drawing
 #--------------------
 
-execute if score @s _sixcombat.overdraw_level matches 0 run scoreboard players remove @s _sixcombat.overdraw_threshold 19
+execute if score @s _sixcombat.overdraw_level matches 0 run scoreboard players remove @s _sixcombat.overdraw_threshold 17
 
 execute if score @s _sixcombat.overdraw_level matches 1.. run scoreboard players remove @s _sixcombat.overdraw_threshold 1
 
