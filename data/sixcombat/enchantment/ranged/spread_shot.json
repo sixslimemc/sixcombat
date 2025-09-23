@@ -70,8 +70,8 @@
 		"per_level_above_first": 15
 	},
 	"min_cost": {
-		"base": 12,
-		"per_level_above_first": 18
+		"base": 17,
+		"per_level_above_first": 17
 	},
 	"slots": [
 		"mainhand"
