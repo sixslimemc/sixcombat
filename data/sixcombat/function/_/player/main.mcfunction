@@ -3,6 +3,9 @@
 # _/tick
 #--------------------
 
+# sprint check:
+execute store success score @s _sixcombat.sprint_check if predicate sixcombat:_/sprinting
+
 # [ enchantments ]
 # overdraw
 execute if entity @s[advancements={sixcombat:_/ench/drawing_overdraw=true}] run function sixcombat:_/player/ench/overdraw/drawing
