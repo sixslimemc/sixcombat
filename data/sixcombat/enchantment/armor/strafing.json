@@ -58,7 +58,7 @@
 		"per_level_above_first": 21
 	},
 	"min_cost": {
-		"base": 17,
+		"base": 20,
 		"per_level_above_first": 21
 	},
 	"slots": [

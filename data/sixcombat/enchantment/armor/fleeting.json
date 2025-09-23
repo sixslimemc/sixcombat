@@ -7,11 +7,11 @@
 	"exclusive_set": "#sixcombat:armor/specialization",
 	"max_level": 2,
 	"max_cost": {
-		"base": 40,
+		"base": 60,
 		"per_level_above_first": 21
 	},
 	"min_cost": {
-		"base": 17,
+		"base": 20,
 		"per_level_above_first": 21
 	},
 	"slots": [
