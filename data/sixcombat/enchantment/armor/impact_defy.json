@@ -30,13 +30,13 @@
 	},
 	"exclusive_set": "#sixcombat:armor/attunement",
 	"max_cost": {
-		"base": 27,
+		"base": 28,
 		"per_level_above_first": 14
 	},
 	"max_level": 3,
 	"min_cost": {
 		"base": 9,
-		"per_level_above_first": 13
+		"per_level_above_first": 15
 	},
 	"slots": [
 		"armor"

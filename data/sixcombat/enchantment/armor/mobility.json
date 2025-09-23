@@ -21,16 +21,16 @@
     "exclusive_set": "#sixcombat:armor/axis",
     "max_cost": {
       "base": 12,
-      "per_level_above_first": 9
+      "per_level_above_first": 11
     },
     "max_level": 5,
     "min_cost": {
       "base": 1,
-      "per_level_above_first": 10
+      "per_level_above_first": 11
     },
     "slots": [
       "armor"
     ],
     "supported_items": "#sixcombat:enchantable/armor/mobility",
-    "weight": 8
+    "weight": 9
   }
