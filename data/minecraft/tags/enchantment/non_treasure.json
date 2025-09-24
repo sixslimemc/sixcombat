@@ -34,6 +34,7 @@
         "sixcombat:armor/safe_falling",
         "sixcombat:armor/strafing",
         "sixcombat:armor/reaching",
-        "sixcombat:armor/hardening"
+        "sixcombat:armor/hardening",
+        "sixcombat:armor/accelerating"
     ]
 }
