@@ -1,5 +1,15 @@
 {
+    "replace":true,
     "values": [
+        "minecraft:efficiency",
+		"minecraft:silk_touch",
+		"minecraft:unbreaking",
+		"minecraft:fortune",
+		"minecraft:luck_of_the_sea",
+		"minecraft:lure",
+		"minecraft:loyalty",
+		"minecraft:riptide",
+		"minecraft:channeling",
         "sixcombat:melee/sharpness",
         "sixcombat:melee/quickness",
         "sixcombat:melee/ignite",
