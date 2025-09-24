@@ -20,13 +20,17 @@ scoreboard objectives add _sixcombat.shoot_bow minecraft.used:minecraft.bow
 scoreboard objectives add _sixcombat.echo_shot_starter dummy
 scoreboard objectives add _sixcombat.sprint_check dummy
 scoreboard objectives add _sixcombat.linked_player dummy
+scoreboard objectives add _sixcombat.potion_affinity_ticks dummy
+scoreboard objectives add _sixcombat.potion_affinity_value dummy
 
 # constants:
 scoreboard players set *4 _sixcombat 4
 scoreboard players set *2 _sixcombat 2
 scoreboard players set *5 _sixcombat 5
 scoreboard players set *10 _sixcombat 10
+scoreboard players set *20 _sixcombat 20
 scoreboard players set *100 _sixcombat 100
+scoreboard players set *1000 _sixcombat 1000
 
 # DEBUG:
 scoreboard players reset *init _sixcombat

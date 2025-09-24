@@ -34,3 +34,6 @@ execute if entity @s[tag=_sixcombat.antigravity_tick] run function sixcombat:_/p
 # gravity:
 execute if entity @s[tag=_sixcombat.gravity_active, tag=!_sixcombat.gravity_tick] run function sixcombat:_/player/ench/gravity/end
 execute if entity @s[tag=_sixcombat.gravity_tick] run function sixcombat:_/player/ench/gravity/tick
+
+# potion affinity:
+execute if entity @s[tag=_sixcombat.potion_affinity_tick] run function sixcombat:_/player/ench/potion_affinity/tick
