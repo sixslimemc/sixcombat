@@ -18,3 +18,7 @@ execute if score @s sixcombat.hardening_timer matches 0.. run function sixcombat
 
 # fleeting
 execute if entity @s[tag=_sixcombat.fleeting_trigger] run function sixcombat:_/player/ench/fleeting/on_detect
+
+# accelerating:
+execute if entity @s[tag=_sixcombat.accelerating_active, tag=!_sixcombat.accelerating_tick] run function sixcombat:_/player/ench/accelerating/reset
+execute if entity @s[tag=_sixcombat.accelerating_tick] run function sixcombat:_/player/ench/accelerating/tick

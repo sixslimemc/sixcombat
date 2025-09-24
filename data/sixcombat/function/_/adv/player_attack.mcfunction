@@ -6,3 +6,5 @@
 advancement revoke @s only sixcombat:_/player_attack
 
 execute if entity @s[tag=_sixcombat.momentum_attacker_affected] run function sixcombat:_/player/ench/momentum/early_attack
+
+execute if entity @s[tag=_sixcombat.accelerating_active] run function sixcombat:_/player/ench/accelerating/attack

@@ -1,0 +1,46 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.accelerating",
+		"fallback": "Accelerating"
+	},
+	"exclusive_set": "#sixcombat:armor/specialization",
+	"max_level": 2,
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 21
+	},
+	"min_cost": {
+		"base": 20,
+		"per_level_above_first": 21
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/accelerating",
+	"weight": 3,
+	"effects": {
+		"minecraft:tick": [
+			{
+				"requirements": {
+					"condition": "minecraft:all_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"flags": {
+									"is_sprinting": true
+								}
+							}
+						}
+					]
+				},
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "sixcombat:_/player/ench/accelerating/trigger"
+				}
+			}
+		]
+	}
+}
