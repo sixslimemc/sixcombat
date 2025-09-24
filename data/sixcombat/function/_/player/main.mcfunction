@@ -7,7 +7,7 @@
 execute store success score @s _sixcombat.sprint_check if predicate sixcombat:_/sprinting
 
 # [ enchantments ]
-# overdraw
+# overdraw:
 execute if entity @s[advancements={sixcombat:_/ench/drawing_overdraw=true}] run function sixcombat:_/player/ench/overdraw/drawing
 execute if entity @s[advancements={sixcombat:_/ench/drawing_overdraw=false}, tag=_sixcombat.overdrawing] run function sixcombat:_/player/ench/overdraw/end
 advancement revoke @s only sixcombat:_/ench/drawing_overdraw
@@ -22,3 +22,7 @@ execute if entity @s[tag=_sixcombat.fleeting_trigger] run function sixcombat:_/p
 # accelerating:
 execute if entity @s[tag=_sixcombat.accelerating_active, tag=!_sixcombat.accelerating_tick] run function sixcombat:_/player/ench/accelerating/reset
 execute if entity @s[tag=_sixcombat.accelerating_tick] run function sixcombat:_/player/ench/accelerating/tick
+
+# luminescent:
+execute if entity @s[tag=_sixcombat.luminescent_active, tag=!_sixcombat.luminescent_tick] run function sixcombat:_/player/ench/luminescent/end
+execute if entity @s[tag=_sixcombat.luminescent_tick] run function sixcombat:_/player/ench/luminescent/tick
