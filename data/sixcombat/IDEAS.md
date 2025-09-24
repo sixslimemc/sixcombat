@@ -22,7 +22,7 @@
 - Overswing | let X = 5 + 7.5L; increases total attack damage by X percent, decreases total attack speed by 1-(100/(100 + X))
 - Zeal | applies (and refreshes) a stack Zeal for 2 + 0.5L seconds, up to 3 + L. each stack of Zeal gives 5 + 2L movement speed.
 - Arcana | deal 0.5 + 1.5L damage flat on-hit magic, but reduce on-hit damage by 0.5 + L.
-- Momentum | sprint attacks increase your attack speed by 5 + 10L percent for 2 seconds (or until your next attack), and reduces the targets attack range by 5 + 10L percent for 1 + 0.2L seconds.
+- Momentum | sprint attacks increase your total attack speed by 10 + 20L percent for 2 seconds (or until your next attack), and reduces the targets attack range and movement speed by 5 + 10L percent for 0.8 + 0.2L seconds.
 
 ## class D (2)
 - necrobane : xxxxx | increases damage against undead by 2.5L

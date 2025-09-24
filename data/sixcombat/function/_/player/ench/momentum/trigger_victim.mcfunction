@@ -2,5 +2,8 @@
 #--------------------
 # @ench : melee/momentum
 #--------------------
+# ~ called after attacker.
 
-say bruh
+
+
+scoreboard players reset *momentum.level _sixcombat
