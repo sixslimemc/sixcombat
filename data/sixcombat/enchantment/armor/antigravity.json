@@ -1,0 +1,37 @@
+{
+	"anvil_cost": 5,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.antigravity",
+		"fallback": "Antigravity"
+	},
+	"exclusive_set": "#sixcombat:armor/augment",
+	"max_level": 1,
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 40
+	},
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 40
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/antigravity",
+	"weight": 4,
+	"effects": {
+		"minecraft:tick": [
+			{
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:run_function",
+							"function": "sixcombat:_/player/ench/antigravity/trigger"
+						}
+					]
+				}
+			}
+		]
+	}
+}
