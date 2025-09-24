@@ -3,6 +3,10 @@
     "values": [
         "minecraft:binding_curse",
         "minecraft:vanishing_curse",
-        "minecraft:mending"
+        "minecraft:mending",
+        "sixcombat:armor/malintent",
+        "sixcombat:armor/heart",
+        "sixcombat:armor/gravity",
+        "sixcombat:armor/antigravity"
     ]
 }

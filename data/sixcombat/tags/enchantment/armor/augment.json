@@ -1,5 +1,8 @@
 {
     "values": [
-        
+        "sixcombat:armor/heart",
+        "sixcombat:armor/malintent",
+        "sixcombat:armor/gravity",
+        "sixcombat:armor/antigravity"
     ]
 }
