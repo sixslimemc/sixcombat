@@ -1,0 +1,44 @@
+{
+	"anvil_cost": 5,
+	"description": {
+		"translate": "enchantment.sixcombat.armor.malintent",
+		"fallback": "Malintent"
+	},
+	"exclusive_set": "#sixcombat:armor/augment",
+	"max_level": 1,
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 40
+	},
+	"min_cost": {
+		"base": 15,
+		"per_level_above_first": 40
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#sixcombat:enchantable/armor/malintent",
+	"weight": 4,
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:max_health",
+				"id": "sixcombat:enchantment/armor/malintent",
+				"amount": -2,
+				"operation": "add_value"
+			},
+			{
+				"attribute": "minecraft:attack_speed",
+				"id": "sixcombat:enchantment/armor/malintent",
+				"amount": 0.12,
+				"operation": "add_multiplied_total"
+			},
+			{
+				"attribute": "minecraft:attack_damage",
+				"id": "sixcombat:enchantment/armor/malintent",
+				"amount": 0.12,
+				"operation": "add_multiplied_total"
+			}
+		]
+	}
+}

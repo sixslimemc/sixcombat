@@ -4,42 +4,28 @@
 		"translate": "enchantment.sixcombat.armor.heart",
 		"fallback": "Heart"
 	},
-	"exclusive_set": "#sixcombat:armor/specialization",
+	"exclusive_set": "#sixcombat:armor/augment",
 	"max_level": 1,
 	"max_cost": {
 		"base": 60,
-		"per_level_above_first": 21
+		"per_level_above_first": 40
 	},
 	"min_cost": {
-		"base": 20,
-		"per_level_above_first": 21
+		"base": 15,
+		"per_level_above_first": 40
 	},
 	"slots": [
 		"armor"
 	],
-	"supported_items": "#sixcombat:enchantable/armor/accelerating",
+	"supported_items": "#sixcombat:enchantable/armor/heart",
 	"weight": 4,
 	"effects": {
-		"minecraft:tick": [
+		"minecraft:attributes": [
 			{
-				"requirements": {
-					"condition": "minecraft:all_of",
-					"terms": [
-						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"flags": {
-									"is_sprinting": true
-								}
-							}
-						}
-					]
-				},
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "sixcombat:_/player/ench/accelerating/trigger"
-				}
+				"attribute": "minecraft:max_health",
+				"id": "sixcombat:enchantment/armor/heart",
+				"amount": 2,
+				"operation": "add_value"
 			}
 		]
 	}
