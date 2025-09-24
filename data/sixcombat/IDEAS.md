@@ -91,14 +91,14 @@
 - Heart | increases max health by 2L
 - Malintent | decrease max health by 2L. increase movement, attack, and mining speed by 0.075L.
 - Rimeglare : x--- | targets within 20 blocks you directly look at for more than 5 ticks get 25L percent reduced movement speed for 0.7 seconds. projectiles you look at get their motion reduced by 30L percent (once).
-- Molten Shell : -x-- | after not taking non-magic damage for 8 seconds, gain the shell. the shell grants non-magic protection 10L from 1 hit, then it breaks.
+- Molten Shell : -xx- | after not taking non-magic damage for 8 seconds, gain the shell. the shell grants non-magic protection 15 from L hits, then it breaks.
 - Gravity -xx- | increase gravity by 5 + 15L percent when not holding jump, increase jump force to make up for it.
-- Antigravity : -xx- | decrease gravity by 15 + 30L percent when holding jump.
-- Luminescent : xx-- | emit a light level of 3 + 4CL
+- Antigravity : -xx- | decrease gravity by 35 + 20L percent when holding jump.
+- Luminescent : xx-- | emit a light level of 3 + 4L
 - Potion Affinity : xx-- | positive potion effects last 30L percent longer when applied
-- Frost Walker : --xx | frost walker 1.5L
+- Frost Walker : ---x | frost walker 1.5L
 - Depth Strider : --xx | depth strider
-- Soul Speed : --xx | soul speed
+- Soul Speed : ---x | soul speed
 
 # ranged enchantments
 ~ bow | crossbow

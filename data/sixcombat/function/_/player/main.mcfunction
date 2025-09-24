@@ -30,3 +30,7 @@ execute if entity @s[tag=_sixcombat.luminescent_tick] run function sixcombat:_/p
 # antigravity:
 execute if entity @s[tag=_sixcombat.antigravity_active, tag=!_sixcombat.antigravity_tick] run function sixcombat:_/player/ench/antigravity/end
 execute if entity @s[tag=_sixcombat.antigravity_tick] run function sixcombat:_/player/ench/antigravity/tick
+
+# gravity:
+execute if entity @s[tag=_sixcombat.gravity_active, tag=!_sixcombat.gravity_tick] run function sixcombat:_/player/ench/gravity/end
+execute if entity @s[tag=_sixcombat.gravity_tick] run function sixcombat:_/player/ench/gravity/tick
