@@ -114,7 +114,7 @@
 - echoshot | shoots L additional arrows in quick succession after the first, following the same trajectory; can be prevented by sneaking.
 
 ## class C (1)
-- Returna | arrows that successfully hit are returned to your inventory.
+- Restosa | arrows have a 35L percent chance to not be consumed, creating a phantom arrow.
 - Direca | arrows slightly home toward targets.
 - Riccocha | arrows bounce L times on blocks.
 - Gravita | arrows have no gravity for the first 2 seconds of flight.
@@ -139,6 +139,7 @@ Arcana : lapis lazuli / x | deals flat magic damage
 Flaming : blaze powder / - | shot on fire
 Aquatic : prismarine crystals / x | keep velocity underwater, and deal more damage to aquatic creatures
 Impact : iron ingot / x | reduces jump height, movement speed, attack damage, and attack speed by 100% very briefly.
+Echobound : echo shard / - | arrows return to shooter on successful hit. arrows have a 8% chance of breaking for every 1.5 seconds they spend in the ground.
 Pull : chain / x | limits max arrow range scaling with L (itemize on exceeding), pulls target toward you.
 
 

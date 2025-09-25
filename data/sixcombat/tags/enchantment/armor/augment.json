@@ -3,6 +3,8 @@
         "sixcombat:armor/heart",
         "sixcombat:armor/malintent",
         "sixcombat:armor/gravity",
-        "sixcombat:armor/antigravity"
+        "sixcombat:armor/antigravity",
+        "sixcombat:armor/potion_affinity",
+        "sixcombat:armor/luminescent"
     ]
 }
