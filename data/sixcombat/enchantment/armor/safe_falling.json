@@ -11,8 +11,8 @@
 				"id": "sixcombat:enchantment/armor/safe_falling",
 				"amount": {
 					"type": "minecraft:linear",
-					"base": 0.84,
-					"per_level_above_first": 0.5
+					"base": 0.6,
+					"per_level_above_first": 0.4
 				},
 				"operation": "add_multiplied_base"
 			},
