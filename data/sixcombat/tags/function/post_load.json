@@ -1,3 +1,5 @@
 {
-    "values": []
+    "values": [
+        "sixcombat:_/sc/post_load"
+    ]
 }

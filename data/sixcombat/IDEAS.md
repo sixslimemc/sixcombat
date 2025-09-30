@@ -2,6 +2,9 @@
 # DEV/TODO
 - fix bug with overdraw being able to be continued if drawing immediately after shooting.
     - easy fix by just adding a function effect that sets overdraw time to 0 on shoot.
+- enchantment melee/shred
+- shield enchants
+- augments
 
 # melee enchantments
 ~ Sword | Axe | Hoe | Shovel | Pickaxe - xxxxx

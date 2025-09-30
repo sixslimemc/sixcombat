@@ -1,6 +1,6 @@
 #> sixcombat:_/cache/main
 #--------------------
-# _/load
+# _/post_load
 #--------------------
 
 data remove storage sixcombat:_ cache
