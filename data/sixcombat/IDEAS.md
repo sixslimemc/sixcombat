@@ -1,7 +1,7 @@
 
 # DEV/TODO
-- fuck fuck fuck fuck theres a fucking bug that causes cffects to not end if multiple are going off at the same time.
-- seems to be a problem with cffect:give, as when 2 cffects are applied near at the same time, only 1 of them gets added to {cffect:data -> entities.active}
+- fix bug with overdraw being able to be continued if drawing immediately after shooting.
+    - easy fix by just adding a function effect that sets overdraw time to 0 on shoot.
 
 # melee enchantments
 ~ Sword | Axe | Hoe | Shovel | Pickaxe - xxxxx
