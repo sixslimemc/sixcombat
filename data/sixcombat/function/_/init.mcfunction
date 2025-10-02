@@ -223,22 +223,22 @@ data modify storage sixcombat:config armor append from storage sixcombat:_ x.bas
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:leather_boots", slot:'feet'}
 data modify storage sixcombat:config armor[-1] merge value {armor:1.0}
 
-# copper: 11 | 2.5 | -0.1 | 0
+# copper: 11 | 2 | -0.18 | 0
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:copper_helmet", slot:'head'}
-data modify storage sixcombat:config armor[-1] merge value {armor:2.0, armor_toughness:0.5, movement_speed_modifier:-0.021}
+data modify storage sixcombat:config armor[-1] merge value {armor:2.0, armor_toughness:0.5, movement_speed_modifier:-0.037}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:copper_chestplate", slot:'chest'}
-data modify storage sixcombat:config armor[-1] merge value {armor:4.0, armor_toughness:1.0, movement_speed_modifier:-0.033}
+data modify storage sixcombat:config armor[-1] merge value {armor:4.0, armor_toughness:0.5, movement_speed_modifier:-0.06}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:copper_leggings", slot:'legs'}
-data modify storage sixcombat:config armor[-1] merge value {armor:3.5, armor_toughness:0.5, movement_speed_modifier:-0.029}
+data modify storage sixcombat:config armor[-1] merge value {armor:3.5, armor_toughness:0.5, movement_speed_modifier:-0.053}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:copper_boots", slot:'feet'}
-data modify storage sixcombat:config armor[-1] merge value {armor:1.5, armor_toughness:0.5, movement_speed_modifier:-0.017}
+data modify storage sixcombat:config armor[-1] merge value {armor:1.5, armor_toughness:0.5, movement_speed_modifier:-0.03}
 
 # chain: 13 | 0 | -0.06 | 0
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
@@ -308,23 +308,22 @@ data modify storage sixcombat:config armor append from storage sixcombat:_ x.bas
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:netherite_boots", slot:'feet'}
 data modify storage sixcombat:config armor[-1] merge value {armor:3.5, armor_toughness:2.5, movement_speed_modifier:-0.053, knockback_resist:0.05}
 
-# to 26
-# gold: 17 | 6 | -0.24 | 0.2
+# gold: 17 | 6 | -0.27 | 0.2
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:golden_helmet", slot:'head'}
-data modify storage sixcombat:config armor[-1] merge value {armor:3.5, armor_toughness:1.5, movement_speed_modifier:-0.05, knockback_resist:0.05}
+data modify storage sixcombat:config armor[-1] merge value {armor:3.5, armor_toughness:1.5, movement_speed_modifier:-0.056, knockback_resist:0.05}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:golden_chestplate", slot:'chest'}
-data modify storage sixcombat:config armor[-1] merge value {armor:5.5, armor_toughness:2.0, movement_speed_modifier:-0.08, knockback_resist:0.05}
+data modify storage sixcombat:config armor[-1] merge value {armor:5.5, armor_toughness:2.0, movement_speed_modifier:-0.09, knockback_resist:0.05}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:golden_leggings", slot:'legs'}
-data modify storage sixcombat:config armor[-1] merge value {armor:5.0, armor_toughness:1.5, movement_speed_modifier:-0.07, knockback_resist:0.05}
+data modify storage sixcombat:config armor[-1] merge value {armor:5.0, armor_toughness:1.5, movement_speed_modifier:-0.079, knockback_resist:0.05}
 
 data modify storage sixcombat:config armor append from storage sixcombat:_ x.base_armor
 data modify storage sixcombat:config armor[-1] merge value {item:"minecraft:golden_boots", slot:'feet'}
-data modify storage sixcombat:config armor[-1] merge value {armor:3.0, armor_toughness:1.0, movement_speed_modifier:-0.04, knockback_resist:0.05}
+data modify storage sixcombat:config armor[-1] merge value {armor:3.0, armor_toughness:1.0, movement_speed_modifier:-0.045, knockback_resist:0.05}
 
 # [ shield ]
 data modify storage sixcombat:config shield set value {}
