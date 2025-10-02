@@ -36,7 +36,7 @@ data modify storage sixcombat:config melee[-1] merge value {additional_modifiers
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:copper_sword"
-data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:1.39f}
+data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:1.21f}
 data modify storage sixcombat:config melee[-1] merge value {additional_modifiers:[{type:"minecraft:sweeping_damage_ratio", amount:0.15f, operation:"add_value"}]}
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
@@ -73,7 +73,7 @@ data modify storage sixcombat:config melee[-1] merge value {disable_block_second
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:copper_axe"
-data modify storage sixcombat:config melee[-1] merge value {damage:5.5f, attack_speed:0.96f}
+data modify storage sixcombat:config melee[-1] merge value {damage:5.5f, attack_speed:0.84f}
 data modify storage sixcombat:config melee[-1] merge value {disable_block_seconds:5.25f}
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
@@ -108,7 +108,7 @@ data modify storage sixcombat:config melee[-1] merge value {damage:3f, attack_sp
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:copper_hoe"
-data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:2.0f}
+data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:1.88f}
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:iron_hoe"
@@ -140,7 +140,7 @@ data modify storage sixcombat:config melee[-1] merge value {range_modifier:0.185
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:copper_shovel"
-data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:1.29f}
+data modify storage sixcombat:config melee[-1] merge value {damage:3.5f, attack_speed:1.11f}
 data modify storage sixcombat:config melee[-1] merge value {range_modifier:0.1775f}
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
@@ -177,7 +177,7 @@ data modify storage sixcombat:config melee[-1] merge value {range_modifier:-0.26
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
 data modify storage sixcombat:config melee[-1].item set value "minecraft:copper_pickaxe"
-data modify storage sixcombat:config melee[-1] merge value {damage:7.5f, attack_speed:0.78f}
+data modify storage sixcombat:config melee[-1] merge value {damage:7.5f, attack_speed:0.66f}
 data modify storage sixcombat:config melee[-1] merge value {range_modifier:-0.27f}
 
 data modify storage sixcombat:config melee append from storage sixcombat:_ x.base_weapon
