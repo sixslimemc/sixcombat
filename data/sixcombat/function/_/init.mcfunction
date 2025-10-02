@@ -335,25 +335,25 @@ data modify storage sixcombat:config shield.wooden.block merge value {delay_tick
 
 # copper:
 data modify storage sixcombat:config shield.copper set from storage sixcombat:_ x.base_shield
-data modify storage sixcombat:config shield.copper merge value {durability:157, movement_speed_modifier:-0.05}
+data modify storage sixcombat:config shield.copper merge value {durability:157, movement_speed_modifier:-0.04}
 data modify storage sixcombat:config shield.copper.block merge value {delay_ticks:5, disable_cooldown_scale:1.2f, max_angle:75, damage_reduction:{percent:0.45}, blocking_modifiers:{persist_ticks:22}}
 
 # iron:
 data modify storage sixcombat:config shield.iron set from storage sixcombat:_ x.base_shield
-data modify storage sixcombat:config shield.iron merge value {durability:300, movement_speed_modifier:-0.08}
+data modify storage sixcombat:config shield.iron merge value {durability:300, movement_speed_modifier:-0.06}
 data modify storage sixcombat:config shield.iron.block merge value {delay_ticks:6, disable_cooldown_scale:1f, max_angle:80, damage_reduction:{percent:0.55}, blocking_modifiers:{persist_ticks:26}}
 
 # diamond:
 data modify storage sixcombat:config shield.diamond set from storage sixcombat:_ x.base_shield
-data modify storage sixcombat:config shield.diamond merge value {durability:1873, movement_speed_modifier:-0.11}
+data modify storage sixcombat:config shield.diamond merge value {durability:1873, movement_speed_modifier:-0.8}
 data modify storage sixcombat:config shield.diamond.block merge value {delay_ticks:7, disable_cooldown_scale:0.8f, max_angle:85, damage_reduction:{percent:0.65}, blocking_modifiers:{persist_ticks:30}}
 
 # netherite:
 data modify storage sixcombat:config shield.netherite set from storage sixcombat:_ x.base_shield
-data modify storage sixcombat:config shield.netherite merge value {durability:2437, movement_speed_modifier:-0.14}
+data modify storage sixcombat:config shield.netherite merge value {durability:2437, movement_speed_modifier:-0.1}
 data modify storage sixcombat:config shield.netherite.block merge value {delay_ticks:8, disable_cooldown_scale:0.6f, max_angle:90, damage_reduction:{percent:0.75}, blocking_modifiers:{persist_ticks:34}}
 
 # golden:
 data modify storage sixcombat:config shield.golden set from storage sixcombat:_ x.base_shield
-data modify storage sixcombat:config shield.golden merge value {durability:48, movement_speed_modifier:-0.155}
+data modify storage sixcombat:config shield.golden merge value {durability:48, movement_speed_modifier:-0.13}
 data modify storage sixcombat:config shield.golden.block merge value {delay_ticks:9, disable_cooldown_scale:0.9f, max_angle:95, damage_reduction:{percent:0.8}, blocking_modifiers:{persist_ticks:36}}
